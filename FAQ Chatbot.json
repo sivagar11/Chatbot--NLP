@@ -1,0 +1,3842 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",   
+        "Hey there!",
+        "Good afternoon!",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting how can i assist you today?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi there! How can I help you today?",
+        "Good afternoon! How may I assist you today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","See you soon"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "See you soon! Take care.",
+        "Sounds good! Have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Sunlight care detergent liguid available",
+      "patterns": [
+        "Is there 1l sunlight care detergent liquid available?",
+        "Is the 1L bottle of Sunlight Care Detergent Liquid in stock?",
+        "Can I get Sunlight Care Detergent Liquid in a 1L package?"
+      ],
+      "responses": [
+        "Yes, Sunlight Care Detergent Liquid is available in a 1L bottle. It comes in a convenient 1L size for your laundry needs.",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Comfort morning fresh fabric conditioner available",
+      "patterns": [
+        "Is there comfort morning fresg fabric conditioner available?",
+        "Can i get comfort morning fresh fabric conditioner?",
+        "Comfort morning fresh fabric conditioner is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 860ml",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Rin Refresh Detergent Powder available",
+      "patterns": [
+        "Is there rin refresh detergent powder available?",
+        "Can i get rin refresh detergent powder?",
+        "Detergent powder is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500ml",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Diva Rose Fresh Laundry Detergent Soap available",
+      "patterns": [
+        "Is there Diva Rose Fresh Laundry Detergent Soap available?",
+        "Can i get Diva Rose Fresh Laundry Detergent Soap powder?",
+        "Diva Rose Fresh Laundry Detergent Soap is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 115g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Surf Excel Matic Front Load Detergent Powder available",
+      "patterns": [
+        "Is there Surf Excel Matic Front Load Detergent Powder available?",
+        "Can i get Surf Excel Matic Front Load Detergent Powder powder?",
+        "Surf Excel Matic Front Load Detergent Powder is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 1kg",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Sunlight Yellow Detegent Soap Multipack available",
+      "patterns": [
+        "Is there Sunlight Yellow Detegent Soap Multipack available?",
+        "Can i get Sunlight Yellow Detegent Soap Multipack powder?",
+        "Sunlight Yellow Detegent Soap Multipack is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 330g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Diva Power Germ Guard Liquid Detergent Refill available",
+      "patterns": [
+        "Is there Diva Power Germ Guard Liquid Detergent Refill available?",
+        "Can i get Diva Power Germ Guard Liquid Detergent Refill?",
+        "Diva Power Germ Guard Liquid Detergent Refill is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400ml",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Care And Hygiene Toilet Bowl Cleaner, Blue, Toilet Cleaner with 10x Power Clean Gel Formula helps remove tough stains available",
+      "patterns": [
+        "Is there Care And Hygiene Toilet Bowl Cleaner, Blue, Toilet Cleaner with 10x Power Clean Gel Formula helps remove tough stains available?",
+        "Can i get Care And Hygiene Toilet Bowl Cleaner, Blue, Toilet Cleaner with 10x Power Clean Gel Formula helps remove tough stains?",
+        "Care And Hygiene Toilet Bowl Cleaner, Blue, Toilet Cleaner with 10x Power Clean Gel Formula helps remove tough stains is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 4l",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Dettol Disinfectant Spray Original Pine Fragrance, Sanitizer for Hard & Soft Surfaces available",
+      "patterns": [
+        "Dettol Disinfectant Spray Original Pine Fragrance, Sanitizer for Hard & Soft Surfaces available?",
+        "Can i get Dettol Disinfectant Spray Original Pine Fragrance, Sanitizer for Hard & Soft Surfaces?",
+        "Dettol Disinfectant Spray Original Pine Fragrance, Sanitizer for Hard & Soft Surfaces is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 225ml",
+        "Yes its available"
+      ]
+    },
+
+   {
+      "tag": "Harpic Toilet Cleaner Liquid with Power Plus 10/10 Stain Removal available",
+      "patterns": [
+        "Is there Harpic Toilet Cleaner Liquid with Power Plus 10/10 Stain Removal  available?",
+        "Can i get Harpic Toilet Cleaner Liquid with Power Plus 10/10 Stain Removal ?",
+        "Harpic Toilet Cleaner Liquid with Power Plus 10/10 Stain Removal  is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 750ml",
+        "Yes its available"
+      ]
+    },
+
+   {
+      "tag": "Vim Dishwash Liquid available",
+      "patterns": [
+        "Is there Vim Dishwash Liquid available?",
+        "Can i get Vim Dishwash Liquid?",
+        "Vim Dishwash Liquid is available in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 250ml",
+        "Yes its available"
+      ]
+    },
+
+   {
+      "tag": "Lysol Disinfectant Surface & Floor Cleaner Liquid Pine available",
+      "patterns": [
+        "Is there Lysol Disinfectant Surface & Floor Cleaner Liquid Pine available?",
+        "Can i get Lysol Disinfectant Surface & Floor Cleaner Liquid Pine?",
+        "Lysol Disinfectant Surface & Floor Cleaner Liquid Pine in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 200ml",
+        "Yes its available"
+      ]
+    },
+
+   {
+      "tag": "Dettol Antibacterial Surface Disinfectant Spray available",
+      "patterns": [
+        "Is there Dettol Antibacterial Surface Disinfectant Spray available?",
+        "Can i get Dettol Antibacterial Surface Disinfectant Spray?",
+        "Dettol Antibacterial Surface Disinfectant Spray in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500ml",
+        "Yes its available"
+      ]
+    },
+
+   {
+      "tag": "Domestos Sink & Pipe Unblocker 500Ml available",
+      "patterns": [
+        "Is there Domestos Sink & Pipe Unblocker 500Ml available?",
+        "Can i get Domestos Sink & Pipe Unblocker 500Ml?",
+        "Domestos Sink & Pipe Unblocker 500Ml in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500ml",
+        "Yes its available"
+      ]
+    },
+
+   {
+      "tag": "High Quality Kitchen Cleaner Spray available",
+      "patterns": [
+        "Is there High Quality Kitchen Cleaner Spray available?",
+        "Can i get High Quality Kitchen Cleaner Spray?",
+        "High Quality Kitchen Cleaner Spray in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500ml",
+        "Yes its available"
+      ]
+    },
+
+
+    {
+      "tag": "Lifebuoy Total 10 Handwash Refill Pouch available",
+      "patterns": [
+        "Is there Lifebuoy Total 10 Handwash Refill Pouch available?",
+        "Can i get Lifebuoy Total 10 Handwash Refill Pouch?",
+        "Lifebuoy Total 10 Handwash Refill Pouch in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 180ml",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Nongshim Korean Famous Ramen Noodles Packet available",
+      "patterns": [
+        "Is there Nongshim Korean Famous Ramen Noodles Packet available?",
+        "Can i get Nongshim Korean Famous Ramen Noodles Packet?",
+        "Nongshim Korean Famous Ramen Noodles Packet in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 100g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "MAGGI Papare Kottu Noodles available",
+      "patterns": [
+        "Is there MAGGI Papare Kottu Noodles available?",
+        "Can i get MAGGI Papare Kottu Noodles?",
+        "MAGGI Papare Kottu Noodles in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 77g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "MAGGI Family Pack Noodles 335g available",
+      "patterns": [
+        "Is there MAGGI Family Pack Noodles 335g available?",
+        "MAGGI Family Pack Noodles 335g Packet?",
+        "MAGGI Family Pack Noodles 335g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 335g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Dry Noodles available",
+      "patterns": [
+        "Is there Dry Noodles available?",
+        "Can i get Dry Noodles?",
+        "Dry Noodles in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "MAGGI Daiya Devilled Spicy Blast Noodles available",
+      "patterns": [
+        "Is there MAGGI Daiya Devilled Spicy Blast Noodles available?",
+        "Can i get MAGGI Daiya Devilled Spicy Blast Noodles?",
+        "MAGGI Daiya Devilled Spicy Blast Noodles in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 76g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Chinese Noodles  available",
+      "patterns": [
+        "Is there Chinese Noodles  available?",
+        "Can i get Chinese Noodles ?",
+        "Chinese Noodles  in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Harischandra Plain Noodles available",
+      "patterns": [
+        "Harischandra Plain Noodles available?",
+        "Can i get Harischandra Plain Noodles?",
+        "Harischandra Plain Noodles in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Fortune Vegetable Oil 01 Ltr available",
+      "patterns": [
+        "Fortune Vegetable Oil 01 Ltr available?",
+        "Can i get Fortune Vegetable Oil 01 Ltr Noodles?",
+        "Fortune Vegetable Oil 01 Ltr in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 5L",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Wijaya White Rice Flour  available",
+      "patterns": [
+        "Wijaya White Rice Flour  available?",
+        "Can i get Wijaya White Rice Flour ?",
+        "Wijaya White Rice Flour  in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 1kg",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Harischandra Plain Noodles available",
+      "patterns": [
+        "Harischandra Plain Noodles available?",
+        "Can i get Harischandra Plain Noodles?",
+        "Harischandra Plain Noodles in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+ 
+
+    {
+      "tag": "Sakthi Garam Masala available",
+      "patterns": [
+        "Sakthi Garam Masala available?",
+        "Can i get Sakthi Garam Masala?",
+        "Sakthi Garam Masala in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 50g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Wijaya Chilli Pieces available",
+      "patterns": [
+        "Wijaya Chilli Pieces available?",
+        "Can i get Wijaya Chilli Pieces?",
+        "Wijaya Chilli Pieces in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Wijaya Jaffna Curry Powder available",
+      "patterns": [
+        "Wijaya Jaffna Curry Powder available?",
+        "Can i get Wijaya Jaffna Curry Powder?",
+        "Wijaya Jaffna Curry Powder in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 100g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Wijaya Chilli Pieces available",
+      "patterns": [
+        "Wijaya Chilli Pieces available?",
+        "Can i get Wijaya Chilli Pieces?",
+        "Wijaya Chilli Pieces in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 500g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Wijaya Kurakkan Flour available",
+      "patterns": [
+        "Wijaya Kurakkan Flour available?",
+        "Can i get Wijaya Kurakkan Flour?",
+        "Wijaya Kurakkan Flour in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Knorr Maldivefish Powder Mix available",
+      "patterns": [
+        "Knorr Maldivefish Powder Mix available?",
+        "Can i get Knorr Maldivefish Powder Mix?",
+        "Knorr Maldivefish Powder Mix in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 40g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Dil Maldive Fish Pieces available",
+      "patterns": [
+        "Dil Maldive Fish Pieces available?",
+        "Can i get Dil Maldive Fish Pieces?",
+        "Dil Maldive Fish Pieces in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 100g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "Nikado Papadam available",
+      "patterns": [
+        "Nikado Papadam  available?",
+        "Can i get Nikado Papadam ?",
+        "Nikado Papadam in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 100g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Laojee Pure Ceylon Black Tea Pouch available",
+      "patterns": [
+        "Laojee Pure Ceylon Black Tea Pouch available?",
+        "Can i get Laojee Pure Ceylon Black Tea Pouch?",
+        "Laojee Pure Ceylon Black Tea Pouch in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 200g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Watawala Tea available",
+      "patterns": [
+        "Watawala Tea available?",
+        "Can i get Watawala Tea?",
+        "Watawala Tea in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Herb Line Fat Burner Green Tea  available",
+      "patterns": [
+        "Herb Line Fat Burner Green Tea  available?",
+        "Can i get Herb Line Fat Burner Green Tea ?",
+        "Herb Line Fat Burner Green Tea  in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 250g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Zesta - Premium Tea 195g  available",
+      "patterns": [
+        "Zesta - Premium Tea 195g available?",
+        "Can i get Zesta - Premium Tea 195g ?",
+        "Zesta - Premium Tea 195g  in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 195g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Lipton Ceylonta Black Tea Pouch available",
+      "patterns": [
+        "Lipton Ceylonta Black Tea Pouch available?",
+        "Can i get Lipton Ceylonta Black Tea Pouch ?",
+        "Lipton Ceylonta Black Tea Pouch in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 200g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Green Tea 25 Tea Bags Carton available",
+      "patterns": [
+        "Green Tea 25 Tea Bags Carton available?",
+        "Can i get Green Tea 25 Tea Bags Carton?",
+        "Green Tea 25 Tea Bags Carton in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 195g",
+        "Yes,Its available"
+      ]
+    },
+    {
+      "tag": "Toblerone Milk Chocolate available",
+      "patterns": [
+        "Toblerone Milk Chocolate available?",
+        "Can i get Toblerone Milk Chocolate?",
+        "Toblerone Milk Chocolate in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 100g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Delicious Chocolate Toffees available",
+      "patterns": [
+        "Zesta - Delicious Chocolate Toffees available?",
+        "Can i get Delicious Chocolate Toffees ?",
+        "Delicious Chocolate Toffees in your store?"
+      ],
+      "responses": [
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Ritzbury Revello Crispy chocolate 170g available",
+      "patterns": [
+        "Ritzbury Revello Crispy chocolate 170g available?",
+        "Can i get Ritzbury Revello Crispy chocolate 170g?",
+        "Ritzbury Revello Crispy chocolate 170g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 195g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Munchee Onion Biscuits 250g available",
+      "patterns": [
+        "Munchee Onion Biscuits 250g available?",
+        "Can i get Munchee Onion Biscuits 250g?",
+        "Munchee Onion Biscuits 250g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 250g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Zesta - Premium Tea 195g  available",
+      "patterns": [
+        "Zesta - Premium Tea 195g available?",
+        "Can i get Zesta - Premium Tea 195g ?",
+        "Zesta - Premium Tea 195g  in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 195g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Chocolate Puff 200g available",
+      "patterns": [
+        "Chocolate Puff 200g available?",
+        "Can i get Chocolate Puff 200g?",
+        "Chocolate Puff 200g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 200g",
+        "Yes its available"
+      ]
+    },
+
+    {
+      "tag": "TipiTip Onion available",
+      "patterns": [
+        "TipiTip Onion available?",
+        "Can i get TipiTip Onion 50g?",
+        "TipiTip Onion 50g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 50g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Mini Chips Curry Flavor available",
+      "patterns": [
+        "Mini Chips Curry Flavor available?",
+        "Can i get Mini Chips Curry Flavor?",
+        "Mini Chips Curry Flavor in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 50g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Cassava (Tomato) 50g available",
+      "patterns": [
+        "Cassava (Tomato) 50g available?",
+        "Can i get Cassava (Tomato) 50g?",
+        "Cassava (Tomato) 50g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 50g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Chocolate Puff 200g available",
+      "patterns": [
+        "Chocolate Puff 200g available?",
+        "Can i get Chocolate Puff 200g?",
+        "Chocolate Puff 200g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 200g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Sera Soup Vegetable 50g available",
+      "patterns": [
+        "Sera Soup Vegetable 50g available?",
+        "Can i get Sera Soup Vegetable 50g?",
+        "Sera Soup Vegetable 50g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 50g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Anchor Full Cream Milk Powder 400g available",
+      "patterns": [
+        "Anchor Full Cream Milk Powder 400g available?",
+        "Can i get Anchor Full Cream Milk Powder 400g?",
+        "Anchor Full Cream Milk Powder 400g in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Puredale Kirithe available",
+      "patterns": [
+        "Puredale Kirithe available?",
+        "Can i get Puredale Kirithe?",
+        "Puredale Kirithe in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "sastogen milk powder available",
+      "patterns": [
+        "sastogen milk powder available?",
+        "Can i get sastogen milk powder?",
+        "sastogen milk powder in your store?"
+      ],
+      "responses": [
+        "Yes,Its available 400g",
+        "Yes its available"
+      ]
+    },
+    {
+      "tag": "Sunlight Care Detergent Liquid price",
+      "patterns": [
+        "Sunlight Care Detergent Liquid price?",
+        "How much Sunlight Care Detergent Liquid?"
+      ],
+      "responses": [
+        "It's 1200lkr"
+      ]
+    },
+    {
+      "tag": " Comfort Morning Fresh Fabric Conditioner price",
+      "patterns": [
+        "Comfort Morning Fresh Fabric Conditioner price?",
+        "How much Comfort Morning Fresh Fabric Conditioner?"
+      ],
+      "responses": [
+        "It's 900lkr"
+      ]
+    },
+    {
+      "tag": "Rin Refresh Detergent Powder price",
+      "patterns": [
+        "Rin Refresh Detergent Powder price?",
+        "How much Rin Refresh Detergent Powder?"
+      ],
+      "responses": [
+        "It's 700lkr"
+      ]
+    },
+    {
+      "tag": "Diva Rose Fresh Laundry Detergent Soap price",
+      "patterns": [
+        "Diva Rose Fresh Laundry Detergent Soap price?",
+        "How much Diva Rose Fresh Laundry Detergent Soap?"
+      ],
+      "responses": [
+        "It's 620lkr"
+      ]
+    },
+
+    {
+      "tag": "4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine price",
+      "patterns": [
+        "4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine price?",
+        "How much 4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine?"
+      ],
+      "responses": [
+        "It's 800lkr"
+      ]
+    },
+    {
+      "tag": "Surf Excel Matic Front Load Detergent Powder price",
+      "patterns": [
+        "Surf Excel Matic Front Load Detergent Powder price?",
+        "How much Surf Excel Matic Front Load Detergent Powder?"
+      ],
+      "responses": [
+        "It's 950lkr"
+      ]
+    },
+    {
+      "tag": "Sunlight Yellow Detegent Soap Multipack price",
+      "patterns": [
+        "Sunlight Yellow Detegent Soap Multipack price?",
+        "How much Sunlight Yellow Detegent Soap Multipack?"
+      ],
+      "responses": [
+        "It's 700lkr"
+      ]
+    },
+    {
+      "tag": "Diva Power Germ Guard Liquid Detergent Refill price",
+      "patterns": [
+        "Diva Power Germ Guard Liquid Detergent Refill price?",
+        "How much Diva Power Germ Guard Liquid Detergent Refill?"
+      ],
+      "responses": [
+        "It's 630lkr"
+      ]
+    },
+    {
+      "tag": "Vim Dishwash Liquid, 250ml price",
+      "patterns": [
+        "Vim Dishwash Liquid, 250ml price?",
+        "How much Vim Dishwash Liquid, 250ml?"
+      ],
+      "responses": [
+        "It's 810lkr"
+      ]
+    },
+    {
+      "tag": "Lysol Disinfectant Surface & Floor Cleaner Liquid Pine 200ml price",
+      "patterns": [
+        "Lysol Disinfectant Surface & Floor Cleaner Liquid Pine 200ml price?",
+        "How much Lysol Disinfectant Surface & Floor Cleaner Liquid Pine 200ml?"
+      ],
+      "responses": [
+        "It's 470lkr"
+      ]
+    },
+    {
+      "tag": "Dettol Antibacterial Surface Disinfectant Spray 500Ml price",
+      "patterns": [
+        "Dettol Antibacterial Surface Disinfectant Spray 500Ml price?",
+        "How much Dettol Antibacterial Surface Disinfectant Spray 500Ml?"
+      ],
+      "responses": [
+        "It's 690lkr"
+      ]
+    },
+    {
+      "tag": "Domestos Sink & Pipe Unblocker 500Ml price",
+      "patterns": [
+        "Domestos Sink & Pipe Unblocker 500Ml price?",
+        "How much Domestos Sink & Pipe Unblocker 500Ml?"
+      ],
+      "responses": [
+        "It's 760lkr"
+      ]
+    },
+    {
+      "tag": "Lifebuoy Total 10 Handwash Refill Pouch, 180ml price",
+      "patterns": [
+        "Lifebuoy Total 10 Handwash Refill Pouch, 180ml price?",
+        "How much Lifebuoy Total 10 Handwash Refill Pouch, 180ml?"
+      ],
+      "responses": [
+        "It's 300lkr"
+      ]
+    },
+    {
+      "tag": "MAGGI Papare Kottu Noodles 77g price",
+      "patterns": [
+        "MAGGI Papare Kottu Noodles 77g price?",
+        "How much MAGGI Papare Kottu Noodles 77g?"
+      ],
+      "responses": [
+        "It's 210lkr"
+      ]
+    },
+    {
+      "tag": "MAGGI Family Pack Noodles 335g price",
+      "patterns": [
+        "MAGGI Family Pack Noodles 335g price?",
+        "How much MAGGI Family Pack Noodles 335g?"
+      ],
+      "responses": [
+        "It's 210lkr"
+      ]
+    },
+    {
+      "tag": "Dry Noodles 400g price",
+      "patterns": [
+        "Dry Noodles 400g price?",
+        "How much Dry Noodles 400g?"
+      ],
+      "responses": [
+        "It's 210lkr"
+      ]
+    },
+    {
+      "tag": "Chinese Noodles 500g",
+      "patterns": [
+        "Chinese Noodles 500g price?",
+        "How much Chinese Noodles 500g?"
+      ],
+      "responses": [
+        "It's 115lkr"
+      ]
+    },
+    {
+      "tag": "MAGGI Curry Noodles 73g price",
+      "patterns": [
+        "MAGGI Curry Noodles 73g price?",
+        "How much MAGGI Curry Noodles 73g?"
+      ],
+      "responses": [
+        "It's 180lkr"
+      ]
+    },
+    {
+      "tag": "Wijaya Noodles 500g price",
+      "patterns": [
+        "Wijaya Noodles 500g price?",
+        "How much Wijaya Noodles 500g?"
+      ],
+      "responses": [
+        "It's 220lkr"
+      ]
+    },
+    {
+      "tag": "Harischandra Plain Noodles 400g price",
+      "patterns": [
+        "Harischandra Plain Noodles 400g price?",
+        "How much Harischandra Plain Noodles 400G?"
+      ],
+      "responses": [
+        "It's 500lkr"
+      ]
+    },
+    {
+      "tag": "Fortune Vegetable Oil 01 Ltr price",
+      "patterns": [
+        "Fortune Vegetable Oil 01 Ltr Powder price?",
+        "How much Fortune Vegetable Oil 01 Ltr?"
+      ],
+      "responses": [
+        "It's 1800lkr"
+      ]
+    },
+    {
+      "tag": "Wijaya White Rice Flour 1Kg price",
+      "patterns": [
+        "Wijaya White Rice Flour 1Kg price?",
+        "How much Wijaya White Rice Flour 1Kg?"
+      ],
+      "responses": [
+        "It's 650lkr"
+      ]
+    },
+    {
+      "tag": "Sakthi Garam Masala 50g price",
+      "patterns": [
+        "Sakthi Garam Masala 50g price?",
+        "How much Sakthi Garam Masala 50g?"
+      ],
+      "responses": [
+        "It's 112lkr"
+      ]
+    },
+    {
+      "tag": "Wijaya Chilli Pieces 500g price",
+      "patterns": [
+        "Wijaya Chilli Pieces 500g price?",
+        "How much Wijaya Chilli Pieces 500g?"
+      ],
+      "responses": [
+        "It's 600lkr"
+      ]
+    },
+    {
+      "tag": "Wijaya Jaffna Curry Powder 100g price",
+      "patterns": [
+        "Wijaya Jaffna Curry Powder 100g price?",
+        "How much Wijaya Jaffna Curry Powder 100g?"
+      ],
+      "responses": [
+        "It's 260lkr"
+      ]
+    },
+    {
+      "tag": "Wijaya Kurakkan Flour 400g price",
+      "patterns": [
+        "Wijaya Kurakkan Flour 400g price?",
+        "How much Wijaya Kurakkan Flour 400g?"
+      ],
+      "responses": [
+        "It's 500lkr"
+      ]
+    },
+    {
+      "tag": "Knorr Maldivefish Powder Mix, 40g price",
+      "patterns": [
+        "Knorr Maldivefish Powder Mix, 40g price?",
+        "How much Knorr Maldivefish Powder Mix, 40g?"
+      ],
+      "responses": [
+        "It's 350lkr"
+      ]
+    },
+    {
+      "tag": "Dil Maldive Fish Pieces 100g price",
+      "patterns": [
+        "Dil Maldive Fish Pieces 100g price?",
+        "How much Dil Maldive Fish Pieces 100g?"
+      ],
+      "responses": [
+        "It's 200lkr"
+      ]
+    },
+    {
+      "tag": "Nikado Papadam 100g price",
+      "patterns": [
+        "Nikado Papadam 100g price?",
+        "How much Nikado Papadam 100g?"
+      ],
+      "responses": [
+        "It's 225lkr"
+      ]
+    },
+    {
+      "tag": "Laojee Pure Ceylon Black Tea Pouch, 200g price",
+      "patterns": [
+        "Laojee Pure Ceylon Black Tea Pouch, 200g price?",
+        "How much Laojee Pure Ceylon Black Tea Pouch, 200g?"
+      ],
+      "responses": [
+        "It's 325lkr"
+      ]
+    },
+    {
+      "tag": "Watawala Tea 400g - Pouch price",
+      "patterns": [
+        "Watawala Tea 400g - Pouch price?",
+        "How much Watawala Tea 400g - Pouch?"
+      ],
+      "responses": [
+        "It's 426lkr"
+      ]
+    },
+    {
+      "tag": "Herb Line Fat Burner Green Tea 250g price",
+      "patterns": [
+        "Herb Line Fat Burner Green Tea 250g price?",
+        "How much Herb Line Fat Burner Green Tea 250g?"
+      ],
+      "responses": [
+        "It's 400lkr"
+      ]
+    },
+    {
+      "tag": "Zesta - Premium Tea 195g - Pouch price",
+      "patterns": [
+        "Zesta - Premium Tea 195g - Pouch price?",
+        "How much Zesta - Premium Tea 195g - Pouch?"
+      ],
+      "responses": [
+        "It's 395lkr"
+      ]
+    },
+    {
+      "tag": "Green Tea 25 Tea Bags Carton price",
+      "patterns": [
+        "Green Tea 25 Tea Bags Carton price?",
+        "How much Green Tea 25 Tea Bags Carton?"
+      ],
+      "responses": [
+        "It's 125lkr"
+      ]
+    },
+    {
+      "tag": "Toblerone Milk Chocolate (100g) price",
+      "patterns": [
+        "Toblerone Milk Chocolate (100g) price?",
+        "How much Toblerone Milk Chocolate (100g)?"
+      ],
+      "responses": [
+        "It's 400lkr"
+      ]
+    },
+    {
+      "tag": "Delicious Chocolate Toffees-10Pcs price",
+      "patterns": [
+        "Delicious Chocolate Toffees-10Pcs price?",
+        "How much Delicious Chocolate Toffees-10Pcs?"
+      ],
+      "responses": [
+        "It's 300lkr"
+      ]
+    },
+    {
+      "tag": "Ritzbury Revello Crispy chocolate 170g price",
+      "patterns": [
+        "Ritzbury Revello Crispy chocolate 170g price?",
+        "How much Ritzbury Revello Crispy chocolate 170g?"
+      ],
+      "responses": [
+        "It's 360lkr"
+      ]
+    },
+    {
+      "tag": "Munchee Cream Cracker 490g price",
+      "patterns": [
+        "Munchee Cream Cracker 490g price?",
+        "How much Munchee Cream Cracker 490g?"
+      ],
+      "responses": [
+        "It's 706lkr"
+      ]
+    },
+    {
+      "tag": "Munchee Onion Biscuits 250g price",
+      "patterns": [
+        "Munchee Onion Biscuits 250g price?",
+        "How much Munchee Onion Biscuits 250g?"
+      ],
+      "responses": [
+        "It's 300lkr"
+      ]
+    },
+    {
+      "tag": "Chocolate Puff 200g price",
+      "patterns": [
+        "Chocolate Puff 200g price?",
+        "How much Chocolate Puff 200g?"
+      ],
+      "responses": [
+        "It's 380lkr"
+      ]
+    },
+
+    {
+      "tag": "TipiTip Onion 50g price",
+      "patterns": [
+        "TipiTip Onion 50g price?",
+        "How much TipiTip Onion 50g?"
+      ],
+      "responses": [
+        "It's 800lkr"
+      ]
+    },
+
+    {
+      "tag": "Mini Chips Curry Flavor price",
+      "patterns": [
+        "Mini Chips Curry Flavor price?",
+        "How much Mini Chips Curry Flavor?"
+      ],
+      "responses": [
+        "It's 800lkr"
+      ]
+    },
+
+    {
+      "tag": "Sera Soup Vegetable 50g price",
+      "patterns": [
+        "Sera Soup Vegetable 50g price?",
+        "How much Sera Soup Vegetable 50g?"
+      ],
+      "responses": [
+        "It's 115lkr"
+      ]
+    },
+
+    {
+      "tag": "Anchor Full Cream Milk Powder price",
+      "patterns": [
+        "Anchor Full Cream Milk Powder price?",
+        "How much Anchor Full Cream Milk Powder?"
+      ],
+      "responses": [
+        "400g Anchor 920lkr ,1kg Anchor 1500lkr "
+      ]
+    },
+
+    {
+      "tag": "Puredale Kirithe 400g price",
+      "patterns": [
+        "Puredale Kirithe 400g price?",
+        "How much Puredale Kirithe 400g?"
+      ],
+      "responses": [
+        "It's 680lkr"
+      ]
+    },
+
+    {
+      "tag": "sastogen milk powder 400g price",
+      "patterns": [
+        "sastogen milk powder 400g price?",
+        "How much sastogen milk powder 400g?"
+      ],
+      "responses": [
+        "It's 1800lkr"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Sunlight Care Detergent Liquid",
+      "patterns": [
+        "Can you give the netweight for sunlight care detergent liquid?",
+        "give netweight sunlight care detergent liquid?"
+      ],
+      "responses": [
+        "It's available 1L"
+      ]
+    },
+    {
+      "tag": "Netweight-Comfort Morning Fresh Fabric Conditioner",
+      "patterns": [
+        "Can you give the available netwewight Comfort Morning Fresh Fabric Conditioner?",
+        "give netweight Comfort Morning Fresh Fabric Conditioner?"
+      ],
+      "responses": [
+        "It's available 860ml"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Rin Refresh Detergent Powder",
+      "patterns": [
+        "Can you give the available netweight for Rin Refresh Detergent Powder?",
+        "give netweight Rin Refresh Detergent Powder?"
+      ],
+      "responses": [
+        "It's available 500g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Diva Rose Fresh Laundry Detergent Soap",
+      "patterns": [
+        "Can you give the netweight for Diva Rose Fresh Laundry Detergent Soap?",
+        "give netweight Diva Rose Fresh Laundry Detergent Soap?"
+      ],
+      "responses": [
+        "Available 115g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Surf Excel Matic Front Load Detergent Powder",
+      "patterns": [
+        "Can you give the netweight for Surf Excel Matic Front Load Detergent Powder?",
+        "give netweightSurf Excel Matic Front Load Detergent Powder?"
+      ],
+      "responses": [
+        "It's available 1kg"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Sunlight Yellow Detegent Soap Multipack",
+      "patterns": [
+        "Can you give the netweight for Sunlight Yellow Detegent Soap Multipack?",
+        "give netweight Sunlight Yellow Detegent Soap Multipack?"
+      ],
+      "responses": [
+        "It's available 330g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Vim Dishwash Liquid",
+      "patterns": [
+        "Can you give the netweight for Vim Dishwash Liquid?",
+        "give netweight Vim Dishwash Liquid?"
+      ],
+      "responses": [
+        "It's available 250ml"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Lifebuoy Total 10 Handwash Refill Pouch",
+      "patterns": [
+        "Can you give the netweight for Lifebuoy Total 10 Handwash Refill Pouch",
+        "give netweight Lifebuoy Total 10 Handwash Refill Pouch?"
+      ],
+      "responses": [
+        "It's available 180ml"
+      ]
+    },
+
+    {
+      "tag": "Netweight-MAGGI Papare Kottu Noodles",
+      "patterns": [
+        "Can you give the netweight for MAGGI Papare Kottu Noodles?",
+        "give netweight MAGGI Papare Kottu Noodles?"
+      ],
+      "responses": [
+        "It's available 77g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-MAGGI Family Pack Noodles",
+      "patterns": [
+        "Can you give the netweight for MAGGI Family Pack Noodles?",
+        "give netweight MAGGI Family Pack Noodles?"
+      ],
+      "responses": [
+        "It's available 335g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Dry Noodles",
+      "patterns": [
+        "Can you give the netweight for Dry Noodles?",
+        "give netweight Dry Noodles?"
+      ],
+      "responses": [
+        "It's available 400g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Chinese Noodles",
+      "patterns": [
+        "Can you give the netweight for Chinese Noodles?",
+        "give netweight Chinese Noodles?"
+      ],
+      "responses": [
+        "It's available 500g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-MAGGI Curry Noodles",
+      "patterns": [
+        "Can you give the netweight for MAGGI Curry Noodles?",
+        "give netweight MAGGI Curry Noodles?"
+      ],
+      "responses": [
+        "It's available 73g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Wijaya Noodles",
+      "patterns": [
+        "Can you give the netweight for Wijaya Noodles?",
+        "give netweight Wijaya Noodles?"
+      ],
+      "responses": [
+        "It's available 500g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Harischandra Plain Noodles",
+      "patterns": [
+        "Can you give the netweight for Harischandra Plain Noodles?",
+        "give netweight Harischandra Plain Noodles?"
+      ],
+      "responses": [
+        "It's available 400g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Fortune Vegetable Oil",
+      "patterns": [
+        "Can you give the netweight for Fortune Vegetable Oil?",
+        "give netweight Fortune Vegetable Oil?"
+      ],
+      "responses": [
+        "It's available 1L"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Wijaya White Rice Flour",
+      "patterns": [
+        "Can you give the netweight for Wijaya White Rice Flour?",
+        "give netweight Wijaya White Rice Flour?"
+      ],
+      "responses": [
+        "It's available 1kg"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Sakthi Garam Masala",
+      "patterns": [
+        "Can you give the netweight for Sakthi Garam Masala?",
+        "give netweight Sakthi Garam Masala?"
+      ],
+      "responses": [
+        "It's available 50g"
+      ]
+    },
+
+    {
+      "tag": "Netweight-Wijaya Chilli Pieces",
+      "patterns": [
+        "Can you give the netweight for Wijaya Chilli Pieces?",
+        "give netweight Wijaya Chilli Pieces?"
+      ],
+      "responses": [
+        "It's available 500g"
+      ]
+    },
+    {
+      "tag": "Netweight-Wijaya Jaffna Curry Powder",
+      "patterns": [
+        "Can you give the netweight for Wijaya Jaffna Curry Powder?",
+        "give netweight Wijaya Jaffna Curry Powder?"
+      ],
+      "responses": [
+        "It's available 100g"
+      ]
+    },
+    {
+      "tag": "Netweight-Wijaya Kurakkan Flour",
+      "patterns": [
+        "Can you give the netweight for Wijaya Kurakkan Flour?",
+        "give netweight Wijaya Kurakkan Flour?"
+      ],
+      "responses": [
+        "It's available 400g"
+      ]
+    },
+    {
+      "tag": "Netweight-Knorr Maldivefish Powder Mix",
+      "patterns": [
+        "Can you give the netweight for Knorr Maldivefish Powder Mix?",
+        "give netweight Knorr Maldivefish Powder Mix?"
+      ],
+      "responses": [
+        "It's available 40g"
+      ]
+    },
+    {
+      "tag": "Netweight-Dil Maldive Fish Pieces",
+      "patterns": [
+        "Can you give the netweight for Dil Maldive Fish Pieces?",
+        "give netweight Dil Maldive Fish Pieces?"
+      ],
+      "responses": [
+        "It's available 100g"
+      ]
+    },
+    {
+      "tag": "Netweight-Nikado Papadam",
+      "patterns": [
+        "Can you give the netweight for Nikado Papadam?",
+        "give netweight Nikado Papadam?"
+      ],
+      "responses": [
+        "It's available 100g"
+      ]
+    },
+    {
+      "tag": "Netweight-Laojee Pure Ceylon Black Tea Pouch",
+      "patterns": [
+        "Can you give the netweight forLaojee Pure Ceylon Black Tea Pouch?",
+        "give netweight Laojee Pure Ceylon Black Tea Pouch?"
+      ],
+      "responses": [
+        "It's available 200g"
+      ]
+    },
+    {
+      "tag": "Netweight-Watawala Tea",
+      "patterns": [
+        "Can you give the netweight for Watawala Tea?",
+        "give netweight Watawala Tea?"
+      ],
+      "responses": [
+        "It's available 400g"
+      ]
+    },
+    {
+      "tag": "Netweight-Herb Line Fat Burner Green Tea",
+      "patterns": [
+        "Can you give the netweight for Herb Line Fat Burner Green Tea?",
+        "give netweight Herb Line Fat Burner Green Tea?"
+      ],
+      "responses": [
+        "It's available 250g"
+      ]
+    },
+    {
+      "tag": "Netweight-Zesta - Premium Tea",
+      "patterns": [
+        "Can you give the netweight for Zesta - Premium Tea?",
+        "give netweight Zesta - Premium Tea?"
+      ],
+      "responses": [
+        "It's available 195g"
+      ]
+    },
+    {
+      "tag": "Netweight-Green Tea 25 Tea Bags Carton",
+      "patterns": [
+        "Can you give the netweight forGreen Tea 25 Tea Bags Carton?",
+        "give netweight Green Tea 25 Tea Bags Carton?"
+      ],
+      "responses": [
+        "It's available 25*10g"
+      ]
+    },
+    {
+      "tag": "Netweight-Toblerone Milk Chocolate",
+      "patterns": [
+        "Can you give the netweight for Toblerone Milk Chocolate?",
+        "give netweight Toblerone Milk Chocolate?"
+      ],
+      "responses": [
+        "It's available 100g"
+      ]
+    },
+    {
+      "tag": "Netweight-Delicious Chocolate Toffees",
+      "patterns": [
+        "Can you give the netweight for Delicious Chocolate Toffees?",
+        "give netweight Delicious Chocolate Toffees?"
+      ],
+      "responses": [
+        "It's available 10pcs*10g"
+      ]
+    },
+    {
+      "tag": "Netweight-Ritzbury Revello Crispy chocolate",
+      "patterns": [
+        "Can you give the netweight for Ritzbury Revello Crispy chocolate?",
+        "give netweight Ritzbury Revello Crispy chocolate?"
+      ],
+      "responses": [
+        "It's available 170g"
+      ]
+    },
+    {
+      "tag": "Netweight-Munchee Cream Cracker",
+      "patterns": [
+        "Can you give the netweight for Munchee Cream Cracker?",
+        "give netweight Munchee Cream Cracker?"
+      ],
+      "responses": [
+        "It's available 490g"
+      ]
+    },
+    {
+      "tag": "Netweight-Munchee Onion Biscuits",
+      "patterns": [
+        "Can you give the netweight for Munchee Onion Biscuits?",
+        "give netweight Munchee Onion Biscuits?"
+      ],
+      "responses": [
+        "It's available 250g"
+      ]
+    },
+    {
+      "tag": "Netweight-Chocolate Puff",
+      "patterns": [
+        "Can you give the netweight for Chocolate Puff?",
+        "give netweight Chocolate Puff?"
+      ],
+      "responses": [
+        "It's available 200g"
+      ]
+    },
+    {
+      "tag": "Netweight-TipiTip Onion",
+      "patterns": [
+        "Can you give the netweight for TipiTip Onion?",
+        "give netweight TipiTip Onion?"
+      ],
+      "responses": [
+        "It's available 50g"
+      ]
+    },
+    {
+      "tag": "Netweight-Mini Chips Curry Flavor",
+      "patterns": [
+        "Can you give the netweight for Mini Chips Curry Flavor?",
+        "give netweight Mini Chips Curry Flavor?"
+      ],
+      "responses": [
+        "It's available 50g"
+      ]
+    },
+    {
+      "tag": "Netweight-Sera Soup Vegetable",
+      "patterns": [
+        "Can you give the netweight for Sera Soup Vegetable?",
+        "give netweight Sera Soup Vegetable?"
+      ],
+      "responses": [
+        "It's available 50g"
+      ]
+    },
+    {
+      "tag": "Netweight-Anchor Full Cream Milk Powder",
+      "patterns": [
+        "Can you give the netweight for Anchor Full Cream Milk Powder?",
+        "give netweight Anchor Full Cream Milk Powder?"
+      ],
+      "responses": [
+        "It's available 500g,1Kg"
+      ]
+    },
+    {
+      "tag": "Netweight-Puredale Kirithe",
+      "patterns": [
+        "Can you give the netweight for Puredale Kirithe?",
+        "give netweight Puredale Kirithe?"
+      ],
+      "responses": [
+        "It's available 400g"
+      ]
+    },
+    {
+      "tag": "Netweight-sastogen milk powder",
+      "patterns": [
+        "Can you give the netweight for sastogen milk powder?",
+        "give netweight sastogen milk powder?"
+      ],
+      "responses": [
+        "It's available 400g"
+      ]
+    },
+    {
+      "tag": "Netweight-Anchor Full Cream Milk Powder",
+      "patterns": [
+        "Can you give the netweight for ?",
+        "give netweight Anchor Full Cream Milk Powder?"
+      ],
+      "responses": [
+        "It's available 1kg"
+      ]
+    },
+    {
+      "tag": "Return Policy-Products",
+      "patterns": [
+        "Can you Say return policy is available in your store?",
+        "If there return policy active?"
+      ],
+      "responses": [
+        "Yes,You can return product within 2 days/48 hours"
+      ]
+    },
+    {
+      "tag": "Description-Sunlight Care Detergent Liquid, 1L",
+      "patterns": [
+        "Please give the information of this product Sunlight Care Detergent Liquid, 1L?",
+        "give description sunlight?"
+      ],
+      "responses": [
+        "Enjoy fresh clean laundry with sunlight Liquid detergent. Specially designed for top load machines with a unique scrubber cap, it features a 7 layer deep penetration formula that goes deep inside the fabric and lifts the toughest stains from the cloth. It locks in amazing fragrance to keep your laundry smelling great."
+      ]
+    },
+    {
+
+      "tag": "Description-Comfort Morning Fresh Fabric Conditioner, 860ml",
+      "patterns": [
+        "Please give the information of this product Comfort Morning Fresh Fabric Conditioner, 860ml?",
+        "give description Comfort Morning Fresh Fabric Conditioner?"
+      ],
+      "responses": [
+        "New-like Shine: Comfort nourishes & untangles cloth fibres damaged by washing, and gives clothes an unbelievable shine. Long-lasting freshness: Now with fragrance pearls for long-lasting freshness. Visibly Soft Clothes: Leaves clothes feeling soft, smooth & great to wear."
+      ]
+    },
+    {
+
+      "tag": "Description-Rin Refresh Detergent Powder, 500g",
+      "patterns": [
+        "Please give the information of this product Rin Refresh Detergent Powder, 500g",
+        "give description Rin Refresh Detergent Powder?"
+      ],
+      "responses": [
+        "Rin Detergent Powder 7kg removes dirt from deep within the cloth fiber, thereby removing dullness from your clothes. Rin Detergent Powder comes with Bright Clean Technology, making your clothes look 'Bright like new'. Use 1 scoop of Rin for a bucket wash & 2 scoops of Rin for machine wash."
+      ]
+    },
+    {
+
+      "tag": "Description-Surf Excel Matic Front Load Detergent Powder 1kg",
+      "patterns": [
+        "Please give the information of this product Surf Excel Matic Front Load Detergent Powder, 1kg?",
+        "give description Surf Excel Matic Front Load Detergent Powder, 1kg?"
+      ],
+      "responses": [
+        "Enjoy fresh clean laundry with sunlight Liquid detergent. Specially designed for top load machines with a unique scrubber cap, it features a 7 layer deep penetration formula that goes deep inside the fabric and lifts the toughest stains from the cloth. It locks in amazing fragrance to keep your laundry smelling great."
+      ]
+    },
+    {
+
+      "tag": "Description-Sunlight Yellow Detegent Soap Multipack, 330g",
+      "patterns": [
+        "Please give the information of this product Sunlight Yellow Detegent Soap Multipack, 330g?",
+        "give description Sunlight Yellow Detegent Soap Multipack, 330g?"
+      ],
+      "responses": [
+        "Sunlight Soap” is ideal for stain removals, pre-treatment of stubborn stains, cleaning hard surfaces and hand washing after those jobs around the house, in the garden and working on the car. With its creamy lather, it leaves your hands smelling so wonderfully fresh."
+      ]
+    },
+    {
+      "tag": "Description-Vim Dishwash Liquid, 250ml",
+      "patterns": [
+        "Please give the information of this product Vim Dishwash Liquid, 250ml?",
+        "give description Vim Dishwash Liquid, 250ml?"
+      ],
+      "responses": [
+        "Diva Power Germ Guard Detergent Powder with Kohomba and Lime is formulated to kill 99.9% of germs that settle on the surface & amongst the fibers of your clothes. Other benefits: Superior cleaning Long lasting fragrance to keep your clothes fresh for long."
+      ]
+    },
+    {
+      "tag": "Description-Lifebuoy Total 10 Handwash Refill Pouch, 180ml",
+      "patterns": [
+        "Please give the information of this product Lifebuoy Total 10 Handwash Refill Pouch, 180ml?",
+        "give description Lifebuoy Total 10 Handwash Refill Pouch, 180ml?"
+      ],
+      "responses": [
+        "Diva Power Germ Guard Detergent Powder with Kohomba and Lime is formulated to kill 99.9% of germs that settle on the surface & amongst the fibers of your clothes. Other benefits: Superior cleaning Long lasting fragrance to keep your clothes fresh for long."
+      ]
+    },
+
+    {
+      "tag": "Description-MAGGI Papare Kottu Noodles 77g",
+      "patterns": [
+        "Please give the information of this product MAGGI Papare Kottu Noodles 77g?",
+        "give description MAGGI Papare Kottu Noodles 77g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-MAGGI Family Pack Noodles 335g",
+      "patterns": [
+        "Please give the information of this product MAGGI Family Pack Noodles 335g?",
+        "give description MAGGI Family Pack Noodles 335g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-Dry Noodles 400g",
+      "patterns": [
+        "Please give the information of this product Dry Noodles 400g?",
+        "give description Dry Noodles 400g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-Chinese Noodles 500g",
+      "patterns": [
+        "Please give the information of this product Chinese Noodles 500g",
+        "give description Chinese Noodles 500g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-Dry Noodles 400g",
+      "patterns": [
+        "Please give the information of this product Dry Noodles 400g?",
+        "give description Dry Noodles 400g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-MAGGI Curry Noodles 73g",
+      "patterns": [
+        "Please give the information of this product MAGGI Curry Noodles 73g?",
+        "give description MAGGI Curry Noodles 73g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-Wijaya Noodles 500g",
+      "patterns": [
+        "Please give the information of this product Wijaya Noodles 500g?",
+        "give description Wijaya Noodles 500g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-Harischandra Plain Noodles 400g",
+      "patterns": [
+        "Please give the information of this product Harischandra Plain Noodles 400g?",
+        "give description Harischandra Plain Noodles 400g?"
+      ],
+      "responses": [
+        "Maggi noodles are dried noodles fused with oil, and sold with a packet of flavorings. These noodles are usually eaten after being cooked in boiling water for 3 to 5 minutes or eaten straight from the packet. Just boil the water, add the tastemaker and noodles and your maggi is ready within 2 to 3 minutes."
+      ]
+    },
+    {
+      "tag": "Description-Wijaya White Rice Flour 1Kg",
+      "patterns": [
+        "Please give the information of this product Wijaya White Rice Flour 1Kg?",
+        "give description Wijaya White Rice Flour 1Kg?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Sakthi Garam Masala 50g",
+      "patterns": [
+        "Please give the information of this product Sakthi Garam Masala 50g",
+        "give description Sakthi Garam Masala 50g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Wijaya Chilli Pieces 500g",
+      "patterns": [
+        "Please give the information of this product Wijaya Chilli Pieces 500g?",
+        "give description Wijaya Chilli Pieces 500g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Wijaya Jaffna Curry Powder 100g",
+      "patterns": [
+        "Please give the information of this product Wijaya Jaffna Curry Powder 100g?",
+        "give description Wijaya Jaffna Curry Powder 100g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Wijaya Kurakkan Flour 400g",
+      "patterns": [
+        "Please give the information of this product Wijaya Kurakkan Flour 400g?",
+        "give description Wijaya Kurakkan Flour 400g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Knorr Maldivefish Powder Mix, 40g",
+      "patterns": [
+        "Please give the information of this product Knorr Maldivefish Powder Mix, 40g?",
+        "give description Knorr Maldivefish Powder Mix, 40g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+
+    {
+      "tag": "Description-Dil Maldive Fish Pieces 100g",
+      "patterns": [
+        "Please give the information of this product Dil Maldive Fish Pieces 100g?",
+        "give description Dil Maldive Fish Pieces 100g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Nikado Papadam 100g",
+      "patterns": [
+        "Please give the information of this product Nikado Papadam 100g?",
+        "give description Nikado Papadam 100g?"
+      ],
+      "responses": [
+        "White rice flour is naturally gluten free, rich in carbohydrates and low in fat. It can be used to bake cakes, cookies, dumplings, breads and more, as well as thicken sauces and coat fish and other proteins."
+      ]
+    },
+    {
+      "tag": "Description-Laojee Pure Ceylon Black Tea Pouch, 200g",
+      "patterns": [
+        "Please give the information of this product Laojee Pure Ceylon Black Tea Pouch, 200g?",
+        "give description Laojee Pure Ceylon Black Tea Pouch, 200g?"
+      ],
+      "responses": [
+        "Ceylon Black Tea is the most famously known tea around the globe. The high-grown black tea has a honey golden liquor and light and is among the best teas which has a distinct flavor, aroma and strength. The low-grown teas has a burgundy brown liquor and stronger in taste."
+      ]
+    },
+    {
+      "tag": "Description-Watawala Tea 400g - Pouch",
+      "patterns": [
+        "Please give the information of this product Watawala Tea 400g - Pouch?",
+        "give description Watawala Tea 400g - Pouch?"
+      ],
+      "responses": [
+        "Ceylon Black Tea is the most famously known tea around the globe. The high-grown black tea has a honey golden liquor and light and is among the best teas which has a distinct flavor, aroma and strength. The low-grown teas has a burgundy brown liquor and stronger in taste."
+      ]
+    },
+    {
+      "tag": "Description-Herb Line Fat Burner Green Tea 250g",
+      "patterns": [
+        "Please give the information of this product Herb Line Fat Burner Green Tea 250g?",
+        "give description Herb Line Fat Burner Green Tea 250g?"
+      ],
+      "responses": [
+        "Ceylon Black Tea is the most famously known tea around the globe. The high-grown black tea has a honey golden liquor and light and is among the best teas which has a distinct flavor, aroma and strength. The low-grown teas has a burgundy brown liquor and stronger in taste."
+      ]
+    },
+    {
+      "tag": "Description-Zesta - Premium Tea 195g - Pouch",
+      "patterns": [
+        "Please give the information of this product Zesta - Premium Tea 195g - Pouch?",
+        "give description Zesta - Premium Tea 195g - Pouch?"
+      ],
+      "responses": [
+        "Ceylon Black Tea is the most famously known tea around the globe. The high-grown black tea has a honey golden liquor and light and is among the best teas which has a distinct flavor, aroma and strength. The low-grown teas has a burgundy brown liquor and stronger in taste."
+      ]
+    },
+    {
+      "tag": "Description-Green Tea 25 Tea Bags Carton",
+      "patterns": [
+        "Please give the information of this product Green Tea 25 Tea Bags Carton",
+        "give description Green Tea 25 Tea Bags Carton?"
+      ],
+      "responses": [
+        "Ceylon Black Tea is the most famously known tea around the globe. The high-grown black tea has a honey golden liquor and light and is among the best teas which has a distinct flavor, aroma and strength. The low-grown teas has a burgundy brown liquor and stronger in taste."
+      ]
+    },
+    {
+      "tag": "Description-Toblerone Milk Chocolate (100g)",
+      "patterns": [
+        "Please give the information of this product Toblerone Milk Chocolate (100g)?",
+        "give description Toblerone Milk Chocolate (100g)?"
+      ],
+      "responses": [
+        "chocolate,food product made from cocoa beans, consumed as candy and used to make beverages and to flavour or coat various confections and bakery products. Rich in carbohydrates, it has several health benefits and is an excellent source of quick energy."
+      ]
+    },
+    {
+      "tag": "Description-Delicious Chocolate Toffees-10Pcs",
+      "patterns": [
+        "Please give the information of this product Delicious Chocolate Toffees-10Pcs?",
+        "give description Delicious Chocolate Toffees-10Pcs?"
+      ],
+      "responses": [
+        "chocolate,food product made from cocoa beans, consumed as candy and used to make beverages and to flavour or coat various confections and bakery products. Rich in carbohydrates, it has several health benefits and is an excellent source of quick energy."
+      ]
+    },
+    {
+      "tag": "Description-Ritzbury Revello Crispy chocolate 170g",
+      "patterns": [
+        "Please give the information of this product Ritzbury Revello Crispy chocolate 170g?",
+        "give description Ritzbury Revello Crispy chocolate 170g?"
+      ],
+      "responses": [
+        "chocolate, food product made from cocoa beans, consumed as candy and used to make beverages and to flavour or coat various confections and bakery products. Rich in carbohydrates, it has several health benefits and is an excellent source of quick energy."
+      ]
+    },
+    {
+      "tag": "Description-Munchee Cream Cracker 490g",
+      "patterns": [
+        "Please give the information of this product Munchee Cream Cracker 490g?",
+        "give description Munchee Cream Cracker 490g?"
+      ],
+      "responses": [
+        "biscuit, in the United States,a small quick bread usually made from flour, salt, and butter or vegetable shortening, with baking powder as a leavening agent. The dough is kneaded briefly and rolled out, and the biscuits are cut with a round cutter."
+      ]
+    },
+    {
+      "tag": "Description-Munchee Onion Biscuits 250g",
+      "patterns": [
+        "Please give the information of this product Munchee Onion Biscuits 250g?",
+        "give description Munchee Onion Biscuits 250g??"
+      ],
+      "responses": [
+        "biscuit, in the United States, a small quick bread usually made from flour, salt, and butter or vegetable shortening, with baking powder as a leavening agent. The dough is kneaded briefly and rolled out, and the biscuits are cut with a round cutter."
+      ]
+    },
+    {
+      "tag": "Description-Chocolate Puff 200g",
+      "patterns": [
+        "Please give the information of this product Chocolate Puff 200g?",
+        "give description Chocolate Puff 200g?"
+      ],
+      "responses": [
+        "biscuit, in the United States, a small quick bread usually made from flour, salt, and butter or vegetable shortening, with baking powder as a leavening agent. The dough is kneaded briefly and rolled out, and the biscuits are cut with a round cutter."
+      ]
+    },
+    {
+      "tag": "Description-TipiTip Onion 50g",
+      "patterns": [
+        "Please give the information of this product TipiTip Onion 50g?",
+        "give description TipiTip Onion 50g?"
+      ],
+      "responses": [
+        "chips are very thin slices of potato that have been fried until they are hard, dry, and crisp, and are eaten cold as a snack. Potato chips are long, thin pieces of potato fried in oil or fat and eaten hot, usually with a meal."
+      ]
+    },
+
+    {
+      "tag": "Description-Mini Chips Curry Flavor",
+      "patterns": [
+        "Please give the information of this product Mini Chips Curry Flavor?",
+        "give description Mini Chips Curry Flavor?"
+      ],
+      "responses": [
+        "chips are very thin slices of potato that have been fried until they are hard, dry, and crisp, and are eaten cold as a snack. Potato chips are long, thin pieces of potato fried in oil or fat and eaten hot, usually with a meal."
+      ]
+    },
+
+    {
+      "tag": "Description-Sera Soup Vegetable 50g",
+      "patterns": [
+        "Please give the information of this product Sera Soup Vegetable 50g?",
+        "give description Sera Soup Vegetable 50g?"
+      ],
+      "responses": [
+        "Instant foods are convenience foods which require minimal preparation, typically just adding water or milk. Some authors define instant food as requiring less than five minutes of preparation and 'ultra-instant food' as requiring less than one minute. Instant foods are often dehydrated, freeze-dried, or condensed."
+      ]
+    },
+
+    {
+      "tag": "Description-Anchor Full Cream Milk Powder 400g",
+      "patterns": [
+        "Please give the information of this product Anchor Full Cream Milk Powder 400g?",
+        "give description Anchor Full Cream Milk Powder 400g?"
+      ],
+      "responses": [
+        "Stay strong and active with a nutritionally complete boost that's high in protein for muscle health and with essential vitamins and minerals, including vitamin D and 50% of your daily calcium requirements to support bone health."
+      ]
+    },
+    {
+      "tag": "Description-Anchor Full Cream Milk Powder 1kg",
+      "patterns": [
+        "Please give the information of this product Anchor Full Cream Milk Powder 1kg?",
+        "give description Anchor Full Cream Milk Powder 1kg?"
+      ],
+      "responses": [
+        "Stay strong and active with a nutritionally complete boost that's high in protein for muscle health and with essential vitamins and minerals, including vitamin D and 50% of your daily calcium requirements to support bone health."
+      ]
+    },
+    {
+      "tag": "Description-Anchor Full Cream Milk Powder",
+      "patterns": [
+        "Please give the information of this product Anchor Full Cream Milk Powder?",
+        "give description Anchor Full Cream Milk Powder?"
+      ],
+      "responses": [
+        "Stay strong and active with a nutritionally complete boost that's high in protein for muscle health and with essential vitamins and minerals, including vitamin D and 50% of your daily calcium requirements to support bone health."
+      ]
+    },
+    {
+      "tag": "Description-Puredale Kirithe 400g",
+      "patterns": [
+        "Please give the information of this product Puredale Kirithe 400g?",
+        "give description Puredale Kirithe 400g?"
+      ],
+      "responses": [
+        "Stay strong and active with a nutritionally complete boost that's high in protein for muscle health and with essential vitamins and minerals, including vitamin D and 50% of your daily calcium requirements to support bone health."
+      ]
+    },
+    {
+      "tag": "Description-sastogen milk powder 400g",
+      "patterns": [
+        "Please give the information of this product sastogen milk powder 400g?",
+        "give description sastogen milk powder 400g?"
+      ],
+      "responses": [
+        "Stay strong and active with a nutritionally complete boost that's high in protein for muscle health and with essential vitamins and minerals, including vitamin D and 50% of your daily calcium requirements to support bone health."
+      ]
+    },
+    {
+      "tag": "Incredients-Sunlight Care Detergent Liquid, 1L",
+      "patterns": [
+        "What are the incredients of this product Sunlight Care Detergent Liquid, 1L?",
+        "give me the incredients Sunlight Care Detergent Liquid, 1L?"
+      ],
+      "responses": [
+        "Ingredients. Soap Base, Aqua (Water), Glycerin, Sodium Carbonate, Parfum (Fragrance), Sodium Chloride, Etidronic Acid, Tetrasodium Edta, Titanium Dioxide, Butylphenyl Methylpropional, Coumarin, Geraniol, Hexyl Cinnamal, Limonene, Linalool, Colourant."
+      ]
+    },
+    {
+      "tag": "Incredients-Comfort Morning Fresh Fabric Conditioner, 860ml",
+      "patterns": [
+        "What are the incredients of this product Comfort Morning Fresh Fabric Conditioner, 860ml?",
+        "give me the incredients Comfort Morning Fresh Fabric Conditioner, 860ml?"
+      ],
+      "responses": [
+        "Ingredients: Water, Di (Palmiticcarboxyethy) Hydroxyethyl Methyl Ammonium Methylsulfate, Ceteareath-25, Simethicone, Acrylic Polymer, Hydrochlorid acid, Benzisothiazolinone, 1-Hydroxyethylidene-1, 1-diphosphonic acid, Calcium Chloride; Fragrance, Colours."
+      ]
+    },
+    {
+      "tag": "Incredients-Rin Refresh Detergent Powder, 500g",
+      "patterns": [
+        "What are the incredients of this product Rin Refresh Detergent Powder, 500g?",
+        "give me the incredients Rin Refresh Detergent Powder, 500g?"
+      ],
+      "responses": [
+        "Cleaning Agents (anionic And Nonionic Surfactants, Enzymes), Water Softeners (sodium Carbonate And Sodium Aluminosilicate), Fabric Whitener, Sodium Perborate, Anti-redeposition Agent, Perfume, Washer Protection Agent (sodium Silicate) And Processing Aids (sodium Sulfate)."
+      ]
+    },
+    {
+      "tag": "Incredients-Surf Excel Matic Front Load Detergent Powder, 1kg",
+      "patterns": [
+        "What are the incredients of this product Surf Excel Matic Front Load Detergent Powder, 1kg?",
+        "give me the incredients Surf Excel Matic Front Load Detergent Powder, 1kg?"
+      ],
+      "responses": [
+        "Alcohol ethoxylate,alkyl,amine oxide,citric acid,ethanol,cyclodextrin"
+      ]
+    },
+    {
+      "tag": "Incredients-Sunlight Yellow Detegent Soap Multipack, 330g",
+      "patterns": [
+        "What are the incredients of this product Sunlight Yellow Detegent Soap Multipack, 330g?",
+        "give me the incredients Sunlight Yellow Detegent Soap Multipack, 330g?"
+      ],
+      "responses": [
+        "Acrrylic polymer,stilbene,sodium dodecylbenzenesulfonate,linear alkylbenzyl sulfonates"
+      ]
+    },
+    {
+      "tag": "Incredients-Vim Dishwash Liquid, 250ml",
+      "patterns": [
+        "What are the incredients of this product Vim Dishwash Liquid, 250ml?",
+        "give me the incredients Vim Dishwash Liquid, 250ml?"
+      ],
+      "responses": [
+        "Acrrylic polymer,stilbene,sodium dodecylbenzenesulfonate,linear alkylbenzyl sulfonates."
+      ]
+    },
+    {
+      "tag": "Incredients-Lifebuoy Total 10 Handwash Refill Pouch, 180ml",
+      "patterns": [
+        "What are the incredients of this product Lifebuoy Total 10 Handwash Refill Pouch, 180ml?",
+        "give me the incredients Lifebuoy Total 10 Handwash Refill Pouch, 180ml?"
+      ],
+      "responses": [
+        "Acrrylic polymer,stilbene,sodium dodecylbenzenesulfonate,linear alkylbenzyl sulfonates."
+      ]
+    },
+    {
+      "tag": "Incredients-MAGGI Papare Kottu Noodles 77g",
+      "patterns": [
+        "What are the incredients of this product MAGGI Papare Kottu Noodles 77g?",
+        "give me the incredients MAGGI Papare Kottu Noodles 77g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+    {
+      "tag": "Incredients-MAGGI Family Pack Noodles 335g",
+      "patterns": [
+        "What are the incredients of this product MAGGI Family Pack Noodles 335g?",
+        "give me the incredients MAGGI Family Pack Noodles 335g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+   {
+      "tag": "Incredients-Dry Noodles 400g",
+      "patterns": [
+        "What are the incredients of this product Dry Noodles 400g?",
+        "give me the incredients Dry Noodles 400g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+
+    {
+      "tag": "Incredients-Chinese Noodles 500g",
+      "patterns": [
+        "What are the incredients of this product Chinese Noodles 500g?",
+        "give me the incredients Chinese Noodles 500g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+
+    {
+      "tag": "Incredients-MAGGI Curry Noodles 73g",
+      "patterns": [
+        "What are the incredients of this product MAGGI Curry Noodles 73g?",
+        "give me the incredients MAGGI Curry Noodles 73g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+
+    {
+      "tag": "Incredients-Wijaya Noodles 500g",
+      "patterns": [
+        "What are the incredients of this product Wijaya Noodles 500g?",
+        "give me the incredients Wijaya Noodles 500g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+
+    {
+      "tag": "Incredients-Harischandra Plain Noodles 400g",
+      "patterns": [
+        "What are the incredients of this product Harischandra Plain Noodles 400g?",
+        "give me the incredients Harischandra Plain Noodles 400g?"
+      ],
+      "responses": [
+        "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE."
+      ]
+    },
+    {
+      "tag": "Incredients-Fortune Vegetable Oil 01 Ltr",
+      "patterns": [
+        "What are the incredients of this product Fortune Vegetable Oil 01 Ltr?",
+        "give me the incredients Fortune Vegetable Oil 01 Ltr?"
+      ],
+      "responses": [
+        "Refined Soyabean Oil, Permitted Antioxidant TBHQ (E-319), Vitamin A & Vitamin D"
+      ]
+    },
+
+    {
+      "tag": "Incredients-Wijaya White Rice Flour 1Kg",
+      "patterns": [
+        "What are the incredients of this product Wijaya White Rice Flour 1Kg",
+        "give me the incredients Wijaya White Rice Flour 1Kg?"
+      ],
+      "responses": [
+        "100% White Rice Flour,rice,salt"
+      ]
+    },
+
+    {
+      "tag": "Incredients-Sakthi Garam Masala 50g",
+      "patterns": [
+        "What are the incredients of this product Sakthi Garam Masala 50g?",
+        "give me the incredients Sakthi Garam Masala 50g?"
+      ],
+      "responses": [
+        "Chilli,termeric,salt"
+      ]
+    },
+
+    {
+      "tag": "Incredients-Wijaya Chilli Pieces 500g",
+      "patterns": [
+        "What are the incredients of this product Wijaya Chilli Pieces 500g?",
+        "give me the incredients Wijaya Chilli Pieces 500g?"
+      ],
+      "responses": [
+        "Chilli,termeric,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Wijaya Jaffna Curry Powder 100g",
+      "patterns": [
+        "What are the incredients of this product Wijaya Jaffna Curry Powder 100g?",
+        "give me the incredients Wijaya Jaffna Curry Powder 100g?"
+      ],
+      "responses": [
+        "Chilli,termeric,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Wijaya Kurakkan Flour 400g",
+      "patterns": [
+        "What are the incredients of this product Wijaya Kurakkan Flour 400g?",
+        "give me the incredients Wijaya Kurakkan Flour 400g?"
+      ],
+      "responses": [
+        "Kurakan,rice,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Dil Maldive Fish Pieces 100g",
+      "patterns": [
+        "What are the incredients of this product Dil Maldive Fish Pieces 100g?",
+        "give me the incredients Dil Maldive Fish Pieces 100g?"
+      ],
+      "responses": [
+        "salt,dry fish,sodium"
+      ]
+    },
+    {
+      "tag": "Incredients-Knorr Maldivefish Powder Mix, 40g",
+      "patterns": [
+        "What are the incredients of this product Knorr Maldivefish Powder Mix, 40g?",
+        "give me the incredients Knorr Maldivefish Powder Mix, 40g?"
+      ],
+      "responses": [
+        "salt,dry fish,sodium"
+      ]
+    },
+    {
+      "tag": "Incredients-Nikado Papadam 100g",
+      "patterns": [
+        "What are the incredients of this product Nikado Papadam 100g?",
+        "give me the incredients Nikado Papadam 100g?"
+      ],
+      "responses": [
+        "Chilli,termeric,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Laojee Pure Ceylon Black Tea Pouch, 200g",
+      "patterns": [
+        "What are the incredients of this product Laojee Pure Ceylon Black Tea Pouch, 200g?",
+        "give me the incredients Laojee Pure Ceylon Black Tea Pouch, 200g?"
+      ],
+      "responses": [
+        "Green leaves,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Watawala Tea 400g - Pouch",
+      "patterns": [
+        "What are the incredients of this product Watawala Tea 400g - Pouch?",
+        "give me the incredients Watawala Tea 400g - Pouch?"
+      ],
+      "responses": [
+        "Green leaves,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Herb Line Fat Burner Green Tea 250g",
+      "patterns": [
+        "What are the incredients of this product Herb Line Fat Burner Green Tea 250g?",
+        "give me the incredients Herb Line Fat Burner Green Tea 250g?"
+      ],
+      "responses": [
+        "Green leaves,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Zesta - Premium Tea 195g - Pouch",
+      "patterns": [
+        "What are the incredients of this product Zesta - Premium Tea 195g - Pouch?",
+        "give me the incredients Zesta - Premium Tea 195g - Pouch?"
+      ],
+      "responses": [
+        "Green leaves,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Green Tea 25 Tea Bags Carton",
+      "patterns": [
+        "What are the incredients of this product Green Tea 25 Tea Bags Carton?",
+        "give me the incredients Green Tea 25 Tea Bags Carton?"
+      ],
+      "responses": [
+        "Green leaves,salt"
+      ]
+    },
+    {
+      "tag": "Incredients-Toblerone Milk Chocolate (100g)",
+      "patterns": [
+        "What are the incredients of this product Toblerone Milk Chocolate (100g)?",
+        "give me the incredients Toblerone Milk Chocolate (100g)?"
+      ],
+      "responses": [
+        "cocoa solids, cocoa butter, sugar, and milk. The relative presence or absence of these define the subclasses of chocolate bar made of dark chocolate, milk chocolate, and white chocolate."
+      ]
+    },
+    {
+      "tag": "Incredients-Delicious Chocolate Toffees-10Pcs",
+      "patterns": [
+        "What are the incredients of this product Delicious Chocolate Toffees-10Pcs?",
+        "give me the incredients Delicious Chocolate Toffees-10Pcs?"
+      ],
+      "responses": [
+        "cocoa solids, cocoa butter, sugar, and milk. The relative presence or absence of these define the subclasses of chocolate bar made of dark chocolate, milk chocolate, and white chocolate."
+      ]
+    },
+    {
+      "tag": "Incredients-Ritzbury Revello Crispy chocolate 170g",
+      "patterns": [
+        "What are the incredients of this product Ritzbury Revello Crispy chocolate 170g?",
+        "give me the incredients Ritzbury Revello Crispy chocolate 170g?"
+      ],
+      "responses": [
+        "cocoa solids, cocoa butter, sugar, and milk. The relative presence or absence of these define the subclasses of chocolate bar made of dark chocolate, milk chocolate, and white chocolate."
+      ]
+    },
+    {
+      "tag": "Incredients-Munchee Cream Cracker 490g",
+      "patterns": [
+        "What are the incredients of this product Munchee Cream Cracker 490g?",
+        "give me the incredients Munchee Cream Cracker 490g?"
+      ],
+      "responses": [
+        "The main ingredients for biscuit making are flours, sugars and fats. To these ingredients, various small ingredients may be added for leavening, flavour and texture. The principle ingredient of biscuits is wheat flour. Wheat flour contains proteins including gliadin and glutenin."
+      ]
+    },
+    {
+      "tag": "Incredients-Munchee Onion Biscuits 250g",
+      "patterns": [
+        "What are the incredients of this product Munchee Onion Biscuits 250g?",
+        "give me the incredients Munchee Onion Biscuits 250g?"
+      ],
+      "responses": [
+        "The main ingredients for biscuit making are flours, sugars and fats. To these ingredients, various small ingredients may be added for leavening, flavour and texture. The principle ingredient of biscuits is wheat flour. Wheat flour contains proteins including gliadin and glutenin."
+      ]
+    },
+
+    {
+      "tag": "Incredients-Chocolate Puff 200g",
+      "patterns": [
+        "What are the incredients of this product Chocolate Puff 200g?",
+        "give me the incredients Chocolate Puff 200g?"
+      ],
+      "responses": [
+        "The main ingredients for biscuit making are flours, sugars and fats. To these ingredients, various small ingredients may be added for leavening, flavour and texture. The principle ingredient of biscuits is wheat flour. Wheat flour contains proteins including gliadin and glutenin."
+      ]
+    },
+
+    {
+      "tag": "Incredients-TipiTip Onion 50g",
+      "patterns": [
+        "What are the incredients of this product TipiTip Onion 50g?",
+        "give me the incredients TipiTip Onion 50g?"
+      ],
+      "responses": [
+        "Potatoes, Vegetable Oil (Canola, Corn, Soybean, and/or Sunflower Oil), and Salt."
+      ]
+    },
+
+    {
+      "tag": "Incredients-Mini Chips Curry Flavor",
+      "patterns": [
+        "What are the incredients of this product Mini Chips Curry Flavor?",
+        "give me the incredients Mini Chips Curry Flavor?"
+      ],
+      "responses": [
+        "Potatoes, Vegetable Oil (Canola, Corn, Soybean, and/or Sunflower Oil), and Salt."
+      ]
+    },
+
+    {
+      "tag": "Incredients-Sera Soup Vegetable 50g",
+      "patterns": [
+        "What are the incredients of this product Sera Soup Vegetable 50g?",
+        "give me the incredients Sera Soup Vegetable 50g?"
+      ],
+      "responses": [
+        " flour, starch, water, salt"
+      ]
+    },
+
+    {
+      "tag": "Incredients-Anchor Full Cream Milk Powder 400g",
+      "patterns": [
+        "What are the incredients of this product Anchor Full Cream Milk Powder 400g?",
+        "give me the incredients Anchor Full Cream Milk Powder 400g?"
+      ],
+      "responses": [
+        "Non Fat Milk Solids (58%), Sugar, Maltodextrin, Flavours, Vitamins (Sodium Ascorbate, Tocopheryl Acetate, Niacinamide, Thiamine Hydrochloride, Retinyl Acetate, Folic Acid, Cyanocobalamin), Minerals (Ferrous Sulphate, Zinc Sulphate). Contains Milk."
+      ]
+    },
+    {
+      "tag": "Incredients-Anchor Full Cream Milk Powder 1kg",
+      "patterns": [
+        "What are the incredients of this product Anchor Full Cream Milk Powder 1kg?",
+        "give me the incredients Anchor Full Cream Milk Powder 1kg?"
+      ],
+      "responses": [
+        "Non Fat Milk Solids (58%), Sugar, Maltodextrin, Flavours, Vitamins (Sodium Ascorbate, Tocopheryl Acetate, Niacinamide, Thiamine Hydrochloride, Retinyl Acetate, Folic Acid, Cyanocobalamin), Minerals (Ferrous Sulphate, Zinc Sulphate). Contains Milk."
+      ]
+    },
+
+
+    {
+      "tag": "Incredients-Puredale Kirithe 400g",
+      "patterns": [
+        "What are the incredients of this product Puredale Kirithe 400g?",
+        "give me the incredients Puredale Kirithe 400g?"
+      ],
+      "responses": [
+        "Non Fat Milk Solids (58%), Sugar, Maltodextrin, Flavours, Vitamins (Sodium Ascorbate, Tocopheryl Acetate, Niacinamide, Thiamine Hydrochloride, Retinyl Acetate, Folic Acid, Cyanocobalamin), Minerals (Ferrous Sulphate, Zinc Sulphate). Contains Milk."
+      ]
+    },
+
+    {
+      "tag": "Incredients-sastogen milk powder 400g",
+      "patterns": [
+        "What are the incredients of this product sastogen milk powder 400g?",
+        "give me the incredients sastogen milk powder 400g?"
+      ],
+      "responses": [
+        "Non Fat Milk Solids (58%), Sugar, Maltodextrin, Flavours, Vitamins (Sodium Ascorbate, Tocopheryl Acetate, Niacinamide, Thiamine Hydrochloride, Retinyl Acetate, Folic Acid, Cyanocobalamin), Minerals (Ferrous Sulphate, Zinc Sulphate). Contains Milk."
+      ]
+    },
+    {
+      "tag": "Expired Date-Sunlight Care Detergent Liquid, 1L",
+      "patterns": [
+        "Give me the expired date of Sunlight Care Detergent Liquid, 1L?",
+        "Please give me the expired date for Sunlight Care Detergent Liquid, 1L?"
+      ],
+      "responses": [
+        "Expired this product in 01/05/2026"
+      ]
+    },
+    {
+      "tag": "Expired Date-Rin Refresh Detergent Powder, 500g",
+      "patterns": [
+        "Give me the expired date of Rin Refresh Detergent Powder, 500g?",
+        "Please give me the expired date for Rin Refresh Detergent Powder, 500g?"
+      ],
+      "responses": [
+        "Expired this product in 01/05/2026"
+      ]
+    },
+    {
+      "tag": "Expired Date-Diva Rose Fresh Laundry Detergent Soap 115g",
+      "patterns": [
+        "Give me the expired date of Diva Rose Fresh Laundry Detergent Soap 115g?",
+        "Please give me the expired date for Diva Rose Fresh Laundry Detergent Soap 115g?"
+      ],
+      "responses": [
+        "Expired this product in 01/05/2026"
+      ]
+    },
+    {
+      "tag": "Expired Date-4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine",
+      "patterns": [
+        "Give me the expired date of 4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine?",
+        "Please give me the expired date for 4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine?"
+      ],
+      "responses": [
+        "Expired this product in 22/11/2027"
+      ]
+    },
+    {
+      "tag": "Expired Date-Diva Power Germ Guard Liquid Detergent Refill 450ml",
+      "patterns": [
+        "Give me the expired date of Diva Power Germ Guard Liquid Detergent Refill 450ml?",
+        "Please give me the expired date for Diva Power Germ Guard Liquid Detergent Refill 450ml?"
+      ],
+      "responses": [
+        "Expired this product in 22/11/2027"
+      ]
+    },
+    {
+      "tag": "Expired Date-Vim Dishwash Liquid, 250ml",
+      "patterns": [
+        "Give me the expired date of Vim Dishwash Liquid, 250ml?",
+        "Please give me the expired date for Vim Dishwash Liquid, 250ml?"
+      ],
+      "responses": [
+        "Expired this product in 22/11/2027"
+      ]
+    },
+    {
+      "tag": "Expired Date-Lifebuoy Total 10 Handwash Refill Pouch, 180ml",
+      "patterns": [
+        "Give me the expired date of Lifebuoy Total 10 Handwash Refill Pouch, 180ml",
+        "Please give me the expired date for Lifebuoy Total 10 Handwash Refill Pouch, 180ml?"
+      ],
+      "responses": [
+        "Expired this product in 22/11/2027"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-MAGGI Papare Kottu Noodles 77g?",
+      "patterns": [
+        "Give me the expired date of MAGGI Papare Kottu Noodles 77g?",
+        "Please give me the expired date for MAGGI Papare Kottu Noodles 77g?"
+      ],
+      "responses": [
+        "Expired this product in 05/09/2025"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-MAGGI Family Pack Noodles 335g",
+      "patterns": [
+        "Give me the expired date of MAGGI Family Pack Noodles 335g?",
+        "Please give me the expired date for MAGGI Family Pack Noodles 335g?"
+      ],
+      "responses": [
+        "Expired this product in 05/09/2025"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Dry Noodles 400g",
+      "patterns": [
+        "Give me the expired date of Dry Noodles 400g?",
+        "Please give me the expired date for Dry Noodles 400g?"
+      ],
+      "responses": [
+        "Expired this product in 05/09/2025"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Chinese Noodles 500g",
+      "patterns": [
+        "Give me the expired date of Chinese Noodles 500g?",
+        "Please give me the expired date for Chinese Noodles 500g?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-MAGGI Curry Noodles 73g",
+      "patterns": [
+        "Give me the expired date of MAGGI Curry Noodles 73g?",
+        "Please give me the expired date for MAGGI Curry Noodles 73g?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Wijaya Noodles 500g",
+      "patterns": [
+        "Give me the expired date of Wijaya Noodles 500g?",
+        "Please give me the expired date for Wijaya Noodles 500g?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Harischandra Plain Noodles 400g",
+      "patterns": [
+        "Give me the expired date of Harischandra Plain Noodles 400g?",
+        "Please give me the expired date for Harischandra Plain Noodles 400g?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Fortune Vegetable Oil 01 Ltr",
+      "patterns": [
+        "Give me the expired date of Fortune Vegetable Oil 01 Ltr?",
+        "Please give me the expired date for Fortune Vegetable Oil 01 Ltr?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Wijaya White Rice Flour 1Kg",
+      "patterns": [
+        "Give me the expired date of Wijaya White Rice Flour 1Kg?",
+        "Please give me the expired date for Wijaya White Rice Flour 1Kg?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Sakthi Garam Masala 50g",
+      "patterns": [
+        "Give me the expired date of Sakthi Garam Masala 50g?",
+        "Please give me the expired date for Sakthi Garam Masala 50g?"
+      ],
+      "responses": [
+        "Expired this product in 21/15/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Wijaya Chilli Pieces 500g",
+      "patterns": [
+        "Give me the expired date of Wijaya Chilli Pieces 500g?",
+        "Please give me the expired date for Wijaya Chilli Pieces 500g?"
+      ],
+      "responses": [
+        "Expired this product in 08/08/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Wijaya Jaffna Curry Powder 100g",
+      "patterns": [
+        "Give me the expired date of Wijaya Jaffna Curry Powder 100g?",
+        "Please give me the expired Wijaya Jaffna Curry Powder 100g?"
+      ],
+      "responses": [
+        "Expired this product in 08/08/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Wijaya Kurakkan Flour 400g",
+      "patterns": [
+        "Give me the expired date of Wijaya Kurakkan Flour 400g?",
+        "Please give me the expired date Wijaya Kurakkan Flour 400g?"
+      ],
+      "responses": [
+        "Expired this product in 08/08/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Knorr Maldivefish Powder Mix, 40g",
+      "patterns": [
+        "Give me the expired date of Knorr Maldivefish Powder Mix, 40g?",
+        "Please give me the expired date for Knorr Maldivefish Powder Mix, 40g?"
+      ],
+      "responses": [
+        "Expired this product in 08/08/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Dil Maldive Fish Pieces 100g",
+      "patterns": [
+        "Give me the expired date of Dil Maldive Fish Pieces 100g?",
+        "Please give me the expired date for Dil Maldive Fish Pieces 100g?"
+      ],
+      "responses": [
+        "Expired this product in 08/08/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Nikado Papadam 100g",
+      "patterns": [
+        "Give me the expired date of Nikado Papadam 100g?",
+        "Please give me the expired date for Nikado Papadam 100g?"
+      ],
+      "responses": [
+        "Expired this product in 08/08/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Laojee Pure Ceylon Black Tea Pouch, 200g",
+      "patterns": [
+        "Give me the expired date of Sunlight Care Detergent Liquid, 1L?",
+        "Please give me the expired date for Sunlight Care Detergent Liquid, 1L?"
+      ],
+      "responses": [
+        "Expired this product in 11/12/2027"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Watawala Tea 400g - Pouch",
+      "patterns": [
+        "Give me the expired date of Watawala Tea 400g - Pouch?",
+        "Please give me the expired date for Watawala Tea 400g - Pouch?"
+      ],
+      "responses": [
+        "Expired this product in 11/12/2027"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Herb Line Fat Burner Green Tea 250g",
+      "patterns": [
+        "Give me the expired date of Herb Line Fat Burner Green Tea 250g?",
+        "Please give me the expired date for Herb Line Fat Burner Green Tea 250g?"
+      ],
+      "responses": [
+        "Expired this product in 11/12/2027"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Zesta - Premium Tea 195g - Pouch",
+      "patterns": [
+        "Give me the expired date of Zesta - Premium Tea 195g - Pouch?",
+        "Please give me the expired date for Zesta - Premium Tea 195g - Pouch?"
+      ],
+      "responses": [
+        "Expired this product in 11/12/2027"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Green Tea 25 Tea Bags Carton",
+      "patterns": [
+        "Give me the expired date of Green Tea 25 Tea Bags Carton?",
+        "Please give me the expired date for Green Tea 25 Tea Bags Carton?"
+      ],
+      "responses": [
+        "Expired this product in 11/12/2027"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Toblerone Milk Chocolate (100g)",
+      "patterns": [
+        "Give me the expired date of Toblerone Milk Chocolate (100g)?",
+        "Please give me the expired date for Toblerone Milk Chocolate (100g)?"
+      ],
+      "responses": [
+        "Expired this product in 26/05/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Delicious Chocolate Toffees-10Pcs",
+      "patterns": [
+        "Give me the expired date of Delicious Chocolate Toffees-10Pcs?",
+        "Please give me the expired date for Delicious Chocolate Toffees-10Pcs?"
+      ],
+      "responses": [
+        "Expired this product in 26/05/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Ritzbury Revello Crispy chocolate 170g",
+      "patterns": [
+        "Give me the expired date of Ritzbury Revello Crispy chocolate 170g?",
+        "Please give me the expired date for Ritzbury Revello Crispy chocolate 170g?"
+      ],
+      "responses": [
+        "Expired this product in 18/11/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Munchee Cream Cracker 490g",
+      "patterns": [
+        "Give me the expired date of Munchee Cream Cracker 490g?",
+        "Please give me the expired date for Munchee Cream Cracker 490g?"
+      ],
+      "responses": [
+        "Expired this product in 18/11/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Munchee Onion Biscuits 250g",
+      "patterns": [
+        "Give me the expired date of Munchee Onion Biscuits 250g?",
+        "Please give me the expired date for Munchee Onion Biscuits 250g?"
+      ],
+      "responses": [
+        "Expired this product in 18/11/2029"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Sunlight Care Detergent Liquid, 1L",
+      "patterns": [
+        "Give me the expired date of Sunlight Care Detergent Liquid, 1L?",
+        "Please give me the expired date for Sunlight Care Detergent Liquid, 1L?"
+      ],
+      "responses": [
+        "Expired this product in 01/05/2026"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Chocolate Puff 200g",
+      "patterns": [
+        "Give me the expired date of Chocolate Puff 200g?",
+        "Please give me the expired date for Chocolate Puff 200g?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+
+    {
+      "tag": "Expired Date-Mini Chips Curry Flavor",
+      "patterns": [
+        "Give me the expired date of Mini Chips Curry Flavor?",
+        "Please give me the expired date for Mini Chips Curry Flavor?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Expired Date-Sera Soup Vegetable 50g",
+      "patterns": [
+        "Give me the expired date of Sera Soup Vegetable 50g?",
+        "Please give me the expired date for Sera Soup Vegetable 50g?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Expired Date-Anchor Full Cream Milk Powder 400g",
+      "patterns": [
+        "Give me the expired date of Anchor Full Cream Milk Powder 400g?",
+        "Please give me the expired date for Anchor Full Cream Milk Powder 400g?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Expired Date-Anchor Full Cream Milk Powder 1kg",
+      "patterns": [
+        "Give me the expired date of Anchor Full Cream Milk Powder 1kg?",
+        "Please give me the expired date for Anchor Full Cream Milk Powder 1kg?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Expired Date-Anchor Full Cream Milk Powder",
+      "patterns": [
+        "Give me the expired date of Anchor Full Cream Milk Powder?",
+        "Please give me the expired date for Anchor Full Cream Milk Powder?"
+      ],
+      "responses": [
+        "Expired this 400g product in 25/09/2028",
+        "Expired this 1kg product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Expired Date-Puredale Kirithe 400g",
+      "patterns": [
+        "Give me the expired date of Puredale Kirithe 400g?",
+        "Please give me the expired date for Puredale Kirithe 400g?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Expired Date-sastogen milk powder 400g",
+      "patterns": [
+        "Give me the expired date of sastogen milk powder 400g?",
+        "Please give me the expired date for sastogen milk powder 400g?"
+      ],
+      "responses": [
+        "Expired this product in 25/09/2028"
+      ]
+    },
+    {
+      "tag": "Discount-Sunlight Care Detergent Liquid, 1L",
+      "patterns": [
+        "If there any discount Sunlight Care Detergent Liquid, 1l?",
+        "Sunlight Care Detergent Liquid, 1L this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Comfort Morning Fresh Fabric Conditioner, 860ml",
+      "patterns": [
+        "If there any discount Comfort Morning Fresh Fabric Conditioner, 860ml?",
+        "Comfort Morning Fresh Fabric Conditioner, 860ml this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Rin Refresh Detergent Powder, 500g",
+      "patterns": [
+        "If there any discount Rin Refresh Detergent Powder, 500g?",
+        "Rin Refresh Detergent Powder, 500g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Diva Rose Fresh Laundry Detergent Soap 115g",
+      "patterns": [
+        "If there any discount Diva Rose Fresh Laundry Detergent Soap 115g?",
+        "Diva Rose Fresh Laundry Detergent Soap 115g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine",
+      "patterns": [
+        "If there any discount 4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine?",
+        "4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Surf Excel Matic Front Load Detergent Powder, 1kg",
+      "patterns": [
+        "If there any discount Surf Excel Matic Front Load Detergent Powder, 1kg?",
+        "Surf Excel Matic Front Load Detergent Powder, 1kg this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Sunlight Yellow Detegent Soap Multipack, 330g",
+      "patterns": [
+        "If there any discount Sunlight Yellow Detegent Soap Multipack, 330g?",
+        "Sunlight Yellow Detegent Soap Multipack, 330g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Diva Power Germ Guard Liquid Detergent Refill 450ml",
+      "patterns": [
+        "If there any discount Diva Power Germ Guard Liquid Detergent Refill 450ml?",
+        "Diva Power Germ Guard Liquid Detergent Refill 450ml this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Vim Dishwash Liquid, 250ml",
+      "patterns": [
+        "If there any discount Vim Dishwash Liquid, 250ml?",
+        "Vim Dishwash Liquid, 250ml this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Lifebuoy Total 10 Handwash Refill Pouch, 180ml",
+      "patterns": [
+        "If there any discount Lifebuoy Total 10 Handwash Refill Pouch, 180ml?",
+        "Lifebuoy Total 10 Handwash Refill Pouch, 180ml this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-MAGGI Papare Kottu Noodles 77g",
+      "patterns": [
+        "If there any discount MAGGI Papare Kottu Noodles 77g?",
+        "MAGGI Papare Kottu Noodles 77g this product have any discount?"
+      ],
+      "responses": [
+        "Yes 15% discount available"
+      ]
+    },
+    {
+      "tag": "Discount-MAGGI Papare Kottu Noodles 77g",
+      "patterns": [
+        "If there any discount MAGGI Papare Kottu Noodles 77g?",
+        "MAGGI Papare Kottu Noodles 77g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-MAGGI Family Pack Noodles 335g",
+      "patterns": [
+        "If there any discount MAGGI Family Pack Noodles 335g?",
+        "MAGGI Family Pack Noodles 335g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Dry Noodles 400g",
+      "patterns": [
+        "If there any discount Dry Noodles 400g?",
+        "Dry Noodles 400g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Chinese Noodles 500g",
+      "patterns": [
+        "If there any discount Chinese Noodles 500g?",
+        "Chinese Noodles 500g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-MAGGI Curry Noodles 73g",
+      "patterns": [
+        "If there any discount MAGGI Curry Noodles 73g?",
+        "MAGGI Curry Noodles 73g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Wijaya Noodles 500g",
+      "patterns": [
+        "If there any discount Wijaya Noodles 500g?",
+        "Wijaya Noodles 500g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Harischandra Plain Noodles 400g",
+      "patterns": [
+        "If there any discount Harischandra Plain Noodles 400g?",
+        "Harischandra Plain Noodles 400g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Fortune Vegetable Oil 01 Ltr",
+      "patterns": [
+        "If there any discount Fortune Vegetable Oil 01 Ltr?",
+        "Fortune Vegetable Oil 01 Ltr this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Wijaya White Rice Flour 1Kg",
+      "patterns": [
+        "If there any discount Wijaya White Rice Flour 1Kg?",
+        "Wijaya White Rice Flour 1Kg this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Sakthi Garam Masala 50g",
+      "patterns": [
+        "If there any discount Sakthi Garam Masala 50g?",
+        "Sakthi Garam Masala 50g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Wijaya Chilli Pieces 500g",
+      "patterns": [
+        "If there any discount Wijaya Chilli Pieces 500g?",
+        "Wijaya Chilli Pieces 500g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Wijaya Jaffna Curry Powder 100g",
+      "patterns": [
+        "If there any discount Wijaya Jaffna Curry Powder 100g?",
+        "Wijaya Jaffna Curry Powder 100g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Wijaya Kurakkan Flour 400g",
+      "patterns": [
+        "If there any discount Wijaya Kurakkan Flour 400g?",
+        "Wijaya Kurakkan Flour 400g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Knorr Maldivefish Powder Mix, 40g",
+      "patterns": [
+        "If there any discount Knorr Maldivefish Powder Mix, 40g?",
+        "Knorr Maldivefish Powder Mix, 40g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Dil Maldive Fish Pieces 100g",
+      "patterns": [
+        "If there any discount Dil Maldive Fish Pieces 100g?",
+        "Dil Maldive Fish Pieces 100g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Nikado Papadam 100g",
+      "patterns": [
+        "If there any discount Nikado Papadam 100g?",
+        "Nikado Papadam 100g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Laojee Pure Ceylon Black Tea Pouch, 200g",
+      "patterns": [
+        "If there any discount Laojee Pure Ceylon Black Tea Pouch, 200g?",
+        "Laojee Pure Ceylon Black Tea Pouch, 200g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Watawala Tea 400g - Pouch",
+      "patterns": [
+        "If there any discount Watawala Tea 400g - Pouch?",
+        "Watawala Tea 400g - Pouch this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Herb Line Fat Burner Green Tea 250g",
+      "patterns": [
+        "If there any discount Herb Line Fat Burner Green Tea 250g?",
+        "Herb Line Fat Burner Green Tea 250g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Zesta - Premium Tea 195g - Pouch",
+      "patterns": [
+        "If there any discount Premium Tea 195g - Pouch?",
+        "Premium Tea 195g - Pouch this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Green Tea 25 Tea Bags Carton",
+      "patterns": [
+        "If there any discount Green Tea 25 Tea Bags Carton?",
+        "Green Tea 25 Tea Bags Carton this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Toblerone Milk Chocolate (100g)",
+      "patterns": [
+        "If there any discount Toblerone Milk Chocolate (100g)?",
+        "Toblerone Milk Chocolate (100g) this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Delicious Chocolate Toffees-10Pcs",
+      "patterns": [
+        "If there any discount Delicious Chocolate Toffees-10Pcs?",
+        "Delicious Chocolate Toffees-10Pcs this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Sakthi Garam Masala 50g",
+      "patterns": [
+        "If there any discount Sakthi Garam Masala 50g?",
+        "Sakthi Garam Masala 50g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Ritzbury Revello Crispy chocolate 170g",
+      "patterns": [
+        "If there any discount Ritzbury Revello Crispy chocolate 170g?",
+        "Ritzbury Revello Crispy chocolate 170g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Munchee Cream Cracker 490g",
+      "patterns": [
+        "If there any discount Munchee Cream Cracker 490g?",
+        "Munchee Cream Cracker 490g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Munchee Onion Biscuits 250g",
+      "patterns": [
+        "If there any discount Munchee Onion Biscuits 250g?",
+        "Munchee Onion Biscuits 250g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Chocolate Puff 200g",
+      "patterns": [
+        "If there any discount Chocolate Puff 200g?",
+        "Chocolate Puff 200g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-TipiTip Onion 50g",
+      "patterns": [
+        "If there any discount TipiTip Onion 50g?",
+        "TipiTip Onion 50g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Mini Chips Curry Flavor",
+      "patterns": [
+        "If there any discount Mini Chips Curry Flavor?",
+        "Mini Chips Curry Flavor this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+
+    {
+      "tag": "Discount-Sera Soup Vegetable 50g",
+      "patterns": [
+        "If there any discount Sera Soup Vegetable 50g?",
+        "Sera Soup Vegetable 50g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Anchor Full Cream Milk Powder 400g",
+      "patterns": [
+        "If there any discount Anchor Full Cream Milk Powder 400g?",
+        "Anchor Full Cream Milk Powder 400g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-Anchor Full Cream Milk Powder 1kg",
+      "patterns": [
+        "If there any discount Anchor Full Cream Milk Powder 1kg?",
+        "Anchor Full Cream Milk Powder 1kg this product have any discount?"
+      ],
+      "responses": [
+        "Yes,20% available"
+      ]
+    },
+    {
+      "tag": "Discount-Anchor Full Cream Milk Powder",
+      "patterns": [
+        "If there any discount Anchor Full Cream Milk Powder?",
+        "Anchor Full Cream Milk Powder this product have any discount?"
+      ],
+      "responses": [
+        "Yes,20% available for anchor full cream milk powder 1kg",
+        "Sorry,at the moment discount not available for anchor milk powder 400g"
+      ]
+    },
+    {
+      "tag": "Discount-Puredale Kirithe 400g",
+      "patterns": [
+        "If there any discount Puredale Kirithe 400g?",
+        "Puredale Kirithe 400g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Discount-sastogen milk powder 400g",
+      "patterns": [
+        "If there any discount sastogen milk powder 400g?",
+        "sastogen milk powder 400g this product have any discount?"
+      ],
+      "responses": [
+        "Sorry,at the moment discount is not available"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Sunlight Care Detergent Liquid, 1L",
+      "patterns": [
+        "Where is this product manufactured?",
+        "Can you say about manufactured country?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Comfort Morning Fresh Fabric Conditioner, 860ml",
+      "patterns": [
+        "Where is this product Comfort Morning Fresh Fabric Conditioner, 860ml manufactured?",
+        "Can you say about manufactured country Comfort Morning Fresh Fabric Conditioner, 860ml?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Rin Refresh Detergent Powder, 500g",
+      "patterns": [
+        "Where is this product Rin Refresh Detergent Powder, 500g manufactured?",
+        "Can you say about manufactured country Rin Refresh Detergent Powder, 500g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine",
+      "patterns": [
+        "Where is this product 4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine manufactured?",
+        "Can you say about manufactured country 4L Leo Life Perfume Rose After Wash Fabric Conditioner Royale Liquid Fabric Softener with Fine French Fragrance for Freshness, Softness & Shine?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Surf Excel Matic Front Load Detergent Powder, 1kg",
+      "patterns": [
+        "Where is this product Surf Excel Matic Front Load Detergent Powder, 1kg manufactured?",
+        "Can you say about manufactured country Surf Excel Matic Front Load Detergent Powder, 1kg?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Sunlight Yellow Detegent Soap Multipack, 330g",
+      "patterns": [
+        "Where is this product Sunlight Yellow Detegent Soap Multipack, 330g manufactured?",
+        "Can you say about manufactured country Sunlight Yellow Detegent Soap Multipack, 330g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Diva Power Germ Guard Liquid Detergent Refill 450ml",
+      "patterns": [
+        "Where is this product Diva Power Germ Guard Liquid Detergent Refill 450ml manufactured?",
+        "Can you say about manufactured country Diva Power Germ Guard Liquid Detergent Refill 450ml ?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Vim Dishwash Liquid, 250ml",
+      "patterns": [
+        "Where is this product Vim Dishwash Liquid, 250ml manufactured?",
+        "Can you say about manufactured country Vim Dishwash Liquid, 250ml?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Lifebuoy Total 10 Handwash Refill Pouch, 180ml",
+      "patterns": [
+        "Where is this product Lifebuoy Total 10 Handwash Refill Pouch, 180ml manufactured?",
+        "Can you say about manufactured country Lifebuoy Total 10 Handwash Refill Pouch, 180ml?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-MAGGI Papare Kottu Noodles 77g",
+      "patterns": [
+        "Where is this product MAGGI Papare Kottu Noodles 77g manufactured?",
+        "Can you say about manufactured country MAGGI Papare Kottu Noodles 77g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-MAGGI Family Pack Noodles 335g",
+      "patterns": [
+        "Where is this product MAGGI Family Pack Noodles 335g manufactured?",
+        "Can you say about manufactured country MAGGI Family Pack Noodles 335g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Dry Noodles 400g",
+      "patterns": [
+        "Where is this product Dry Noodles 400g manufactured?",
+        "Can you say about manufactured country Dry Noodles 400g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Chinese Noodles 500g",
+      "patterns": [
+        "Where is this product Chinese Noodles 500g manufactured?",
+        "Can you say about manufactured country Chinese Noodles 500g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-MAGGI Curry Noodles 73g",
+      "patterns": [
+        "Where is this product MAGGI Curry Noodles 73g manufactured?",
+        "Can you say about manufactured country MAGGI Curry Noodles 73g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Wijaya Noodles 500g",
+      "patterns": [
+        "Where is this product Wijaya Noodles 500g manufactured?",
+        "Can you say about manufactured country Wijaya Noodles 500g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Harischandra Plain Noodles 400g",
+      "patterns": [
+        "Where is this product Harischandra Plain Noodles 400g manufactured?",
+        "Can you say about manufactured country Harischandra Plain Noodles 400g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Fortune Vegetable Oil 01 Ltr",
+      "patterns": [
+        "Where is this product Fortune Vegetable Oil 01 Ltr manufactured?",
+        "Can you say about manufactured country Fortune Vegetable Oil 01 Ltr?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Wijaya White Rice Flour 1Kg",
+      "patterns": [
+        "Where is this product Wijaya White Rice Flour 1Kg manufactured?",
+        "Can you say about manufactured country Wijaya White Rice Flour 1Kg?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Sakthi Garam Masala 50g",
+      "patterns": [
+        "Where is this product Sakthi Garam Masala 50g manufactured?",
+        "Can you say about manufactured country Sakthi Garam Masala 50g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Wijaya Chilli Pieces 500g",
+      "patterns": [
+        "Where is this product Wijaya Chilli Pieces 500g manufactured?",
+        "Can you say about manufactured country Wijaya Chilli Pieces 500g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by India"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Wijaya Jaffna Curry Powder 100g",
+      "patterns": [
+        "Where is this product Wijaya Jaffna Curry Powder 100g manufactured?",
+        "Can you say about manufactured country Wijaya Jaffna Curry Powder 100g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by India"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Wijaya Kurakkan Flour 400g",
+      "patterns": [
+        "Where is this product Wijaya Kurakkan Flour 400g manufactured?",
+        "Can you say about manufactured country Wijaya Kurakkan Flour 400g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by India"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Knorr Maldivefish Powder Mix, 40g",
+      "patterns": [
+        "Where is this product Knorr Maldivefish Powder Mix, 40g manufactured?",
+        "Can you say about manufactured country Knorr Maldivefish Powder Mix, 40g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by India"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Dil Maldive Fish Pieces 100g",
+      "patterns": [
+        "Where is this product Dil Maldive Fish Pieces 100g manufactured?",
+        "Can you say about manufactured country Dil Maldive Fish Pieces 100g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+
+    {
+      "tag": "Manufactured country-Nikado Papadam 100g",
+      "patterns": [
+        "Where is this product Nikado Papadam 100g manufactured?",
+        "Can you say about manufactured country Nikado Papadam 100g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Laojee Pure Ceylon Black Tea Pouch, 200g",
+      "patterns": [
+        "Where is this product Laojee Pure Ceylon Black Tea Pouch, 200g manufactured?",
+        "Can you say about manufactured country Laojee Pure Ceylon Black Tea Pouch, 200g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Watawala Tea 400g - Pouch",
+      "patterns": [
+        "Where is this product Watawala Tea 400g - Pouch manufactured?",
+        "Can you say about manufactured country Watawala Tea 400g - Pouch?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Herb Line Fat Burner Green Tea 250g",
+      "patterns": [
+        "Where is this product Herb Line Fat Burner Green Tea 250g manufactured?",
+        "Can you say about manufactured country Herb Line Fat Burner Green Tea 250g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Zesta - Premium Tea 195g - Pouch",
+      "patterns": [
+        "Where is this product Zesta - Premium Tea 195g - Pouch manufactured?",
+        "Can you say about manufactured country Zesta - Premium Tea 195g - Pouch?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Green Tea 25 Tea Bags Carton",
+      "patterns": [
+        "Where is this product Green Tea 25 Tea Bags Carton manufactured?",
+        "Can you say about manufactured country Green Tea 25 Tea Bags Carton?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Toblerone Milk Chocolate (100g)",
+      "patterns": [
+        "Where is this product Toblerone Milk Chocolate (100g) manufactured?",
+        "Can you say about manufactured country Toblerone Milk Chocolate (100g)?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Delicious Chocolate Toffees-10Pcs",
+      "patterns": [
+        "Where is this product Delicious Chocolate Toffees-10Pcs manufactured?",
+        "Can you say about manufactured country Delicious Chocolate Toffees-10Pcs?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country Ritzbury Revello Crispy chocolate 170g",
+      "patterns": [
+        "Where is this product Revello Crispy chocolate 170g manufactured?",
+        "Can you say about manufactured country Revello Crispy chocolate 170g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+
+    {
+      "tag": "Manufactured country-Munchee Cream Cracker 490g",
+      "patterns": [
+        "Where is this product Munchee Cream Cracker 490g manufactured?",
+        "Can you say about manufactured country Munchee Cream Cracker 490g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+
+    {
+      "tag": "Manufactured country-Munchee Onion Biscuits 250g",
+      "patterns": [
+        "Where is this product Munchee Onion Biscuits 250g manufactured?",
+        "Can you say about manufactured country Munchee Onion Biscuits 250g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+
+    {
+      "tag": "Manufactured country-Chocolate Puff 200g",
+      "patterns": [
+        "Where is this product Chocolate Puff 200g manufactured?",
+        "Can you say about manufactured country Chocolate Puff 200g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+
+    {
+      "tag": "Manufactured country-TipiTip Onion 50g",
+      "patterns": [
+        "Where is this product TipiTip Onion 50g manufactured?",
+        "Can you say about manufactured country TipiTip Onion 50g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Mini Chips Curry Flavor",
+      "patterns": [
+        "Where is this product Mini Chips Curry Flavor manufactured?",
+        "Can you say about manufactured country Mini Chips Curry Flavor?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Sera Soup Vegetable 50g",
+      "patterns": [
+        "Where is this product Sera Soup Vegetable 50g manufactured?",
+        "Can you say about manufactured country Sera Soup Vegetable 50g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Anchor Full Cream Milk Powder 400g",
+      "patterns": [
+        "Where is this product Anchor Full Cream Milk Powder 400g manufactured?",
+        "Can you say about manufactured country Anchor Full Cream Milk Powder 400g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Anchor Full Cream Milk Powder 1kg",
+      "patterns": [
+        "Where is this product Anchor Full Cream Milk Powder 1kg manufactured?",
+        "Can you say about manufactured country Anchor Full Cream Milk Powder 1kg?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-Puredale Kirithe 400g",
+      "patterns": [
+        "Where is this product Puredale Kirithe 400g manufactured?",
+        "Can you say about manufactured country Puredale Kirithe 400g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    },
+    {
+      "tag": "Manufactured country-sastogen milk powder 400g",
+      "patterns": [
+        "Where is this product sastogen milk powder 400g manufactured?",
+        "Can you say about manufactured country sastogen milk powder 400g?"
+      ],
+      "responses": [
+        "Yes,this product manufactured by Sri Lanka"
+      ]
+    }
+  ]
+}
